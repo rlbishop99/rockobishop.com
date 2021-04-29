@@ -1,4 +1,4 @@
-<form action="test.php" method="post">
+<form action="index.php" method="post">
     <input type="submit" name="response" value="Go!" />
 </form>
 
