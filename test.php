@@ -1,10 +1,10 @@
-<form action="index.php" method="post">
+<form action="test.php" method="post">
     <input type="submit" name="response" value="Go!" />
 </form>
 
 <?php
 
-$presses = 3;
+$presses = $_GET['presses'];
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
@@ -19,18 +19,22 @@ $presses = 3;
             case 0:
                 echo "ayeeee gg you pressed the button";
                 $presses++;
+                header("Location: /test.php?presses=" . $presses);
                 break;
             case 1:
                 echo "You clicked it again! How...cool?";
                 $presses++;
+                header("Location: /test.php?presses=" . $presses);
                 break;
             case 2:
                 echo "You clicked it again? Okay...";
                 $presses++;
+                header("Location: /test.php?presses=" . $presses);
                 break;
             case 3:
                 echo "Why are you doing this to yourself?";
                 $presses++;
+                header("Location: /test.php?presses=" . $presses);
                 break;
             default:
                 echo "Okay, I'm done. Have fun..?";
