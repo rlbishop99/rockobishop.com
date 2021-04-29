@@ -5,10 +5,6 @@ session_start();
 if(!isset($_SESSION['presses'])) {
     $_SESSION['presses'] = 0;
 }
-else
-{
-    $_SESSION['presses']++;
-}
 ?>
 
 <form action="test.php" method="post">
@@ -51,7 +47,7 @@ else
         }
     }
 
-    function showMessage()
+    /*function showMessage()
     {
         switch($_SESSION['presses'])
         {
@@ -71,6 +67,6 @@ else
                 echo "Okay, I'm done. Have fun..?";
                 break;
         }
-    }
+    }*/
 
 ?>
