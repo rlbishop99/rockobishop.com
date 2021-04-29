@@ -1,7 +1,7 @@
 <?php
-    if(isset($_GET['presses']))
+    if(isset($_POST['presses']))
     {
-        $presses = $_GET['presses'];
+        $presses = $_POST['presses'];
     }
     else
     {
