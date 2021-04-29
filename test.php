@@ -14,7 +14,7 @@ $presses = 0;
     function buttonPress()
     {
 
-        switch(presses)
+        switch($presses)
         {
             case 0:
                 echo "ayeeee gg you pressed the button";
