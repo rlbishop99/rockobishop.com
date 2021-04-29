@@ -11,12 +11,31 @@ if(!isset($_SESSION['presses'])) {
     <input type="submit" name="response" value="Go!" />
 </form>
 
-<?php
 
+
+
+<?php
+    switch($_SESSION['presses'])
+    {
+        case 0:
+            echo "ayeeee gg you pressed the button";
+            break;
+        case 1:
+            echo "You clicked it again! How...cool?";
+            break;
+        case 2:
+            echo "You clicked it again? Okay...";
+            break;
+        case 3:
+            echo "Why are you doing this to yourself?";
+            break;
+        default:
+            echo "Okay, I'm done. Have fun..?";
+            break;
+    }
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
-        showMessage();
         buttonPress();
     }
 
@@ -48,27 +67,4 @@ if(!isset($_SESSION['presses'])) {
                 break;
         }
     }
-
-    function showMessage()
-    {
-        switch($_SESSION['presses'])
-        {
-            case 0:
-                echo "ayeeee gg you pressed the button";
-                break;
-            case 1:
-                echo "You clicked it again! How...cool?";
-                break;
-            case 2:
-                echo "You clicked it again? Okay...";
-                break;
-            case 3:
-                echo "Why are you doing this to yourself?";
-                break;
-            default:
-                echo "Okay, I'm done. Have fun..?";
-                break;
-        }
-    }
-
 ?>
