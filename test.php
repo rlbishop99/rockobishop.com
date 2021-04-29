@@ -4,7 +4,7 @@
 
 <?php
 
-$presses = 1;
+$presses = 3;
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
