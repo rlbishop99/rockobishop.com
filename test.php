@@ -26,7 +26,7 @@
     function buttonPress()
     {
 
-        switch($presses)
+        switch($_POST['presses'])
         {
             case 0:
                 echo "ayeeee gg you pressed the button";
