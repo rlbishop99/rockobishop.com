@@ -26,16 +26,20 @@ if(!isset($_SESSION['presses'])) {
         switch($_SESSION['presses'])
         {
             case 0:
-                header("Location: /test.php?presses=" . $_SESSION['presses']++);
+                $_SESSION['presses']++;
+                header("Location: /test.php?presses=" . $_SESSION['presses']);
                 break;
             case 1:
-                header("Location: /test.php?presses=" . $_SESSION['presses']++);
+                $_SESSION['presses']++;
+                header("Location: /test.php?presses=" . $_SESSION['presses']);
                 break;
             case 2:
-                header("Location: /test.php?presses=" . $_SESSION['presses']++);
+                $_SESSION['presses']++;
+                header("Location: /test.php?presses=" . $_SESSION['presses']);
                 break;
             case 3:
-                header("Location: /test.php?presses=" . $_SESSION['presses']++);
+                $_SESSION['presses']++;
+                header("Location: /test.php?presses=" . $_SESSION['presses']);
                 break;
             default:
                 session_destroy();
