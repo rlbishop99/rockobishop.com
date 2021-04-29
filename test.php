@@ -5,7 +5,7 @@
     }
     else
     {
-        $presses = 0;
+        $presses = 3;
         header("Location: /test.php?presses=" . $presses);
     }
 ?>
