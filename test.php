@@ -1,11 +1,10 @@
 <form action="test.php" method="post">
     <input type="submit" name="response" value="Go!" />
-    <input type="submit" name="response2" value="Back!" />
 </form>
 
 <?php
 
-include 'index.php';
+$presses = 1;
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {

@@ -1,5 +1,1 @@
-<?php echo "yeehaw bitch I'm a web dev";
-
-$presses = 0;
-
-?>
+<?php echo "yeehaw bitch I'm a web dev";?>
