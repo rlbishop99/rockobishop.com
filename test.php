@@ -39,9 +39,10 @@ if(!isset($_SESSION['presses'])) {
                 break;
             case 3:
                 $_SESSION['presses']++;
-                header("Location: /test.php?presses=" . $_SESSION['presses']);
+                header("Location: /test.php?presses=" . $_SESSION['presses']-1);
                 break;
             default:
+                
                 session_destroy();
                 header("Location: /test.php?presses=0");
                 break;
