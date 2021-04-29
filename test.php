@@ -1,16 +1,21 @@
+<?php
+    if(isset($_GET['presses']))
+    {
+        $presses = $_GET['presses'];
+    }
+    else
+    {
+        $presses = 0;
+    }
+?>
+
 <form action="test.php" method="post">
     <input type="submit" name="response" value="Go!" />
+    <input type="hidden" id="presses" name="presses" value="<?php echo $_GET['presses'];?>"/>
 </form>
 
 <?php
- if(isset($_GET['presses']))
- {
-    $presses = $_GET['presses'];
- }
-else
-{
-    $presses = 0;
-}
+
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
