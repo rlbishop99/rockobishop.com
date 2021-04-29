@@ -17,6 +17,7 @@ if(!isset($_SESSION['presses'])) {
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
         buttonPress();
+        showMessage();
     }
 
     function buttonPress()
@@ -39,6 +40,28 @@ if(!isset($_SESSION['presses'])) {
             case 3:
                 echo "Why are you doing this to yourself?";
                 header("Location: /test.php?presses=" . $_SESSION['presses']++);
+                break;
+            default:
+                echo "Okay, I'm done. Have fun..?";
+                break;
+        }
+    }
+
+    function showMessage()
+    {
+        switch($_SESSION['presses'])
+        {
+            case 0:
+                echo "ayeeee gg you pressed the button";
+                break;
+            case 1:
+                echo "You clicked it again! How...cool?";
+                break;
+            case 2:
+                echo "You clicked it again? Okay...";
+                break;
+            case 3:
+                echo "Why are you doing this to yourself?";
                 break;
             default:
                 echo "Okay, I'm done. Have fun..?";
