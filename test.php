@@ -1,11 +1,11 @@
-include 'index.php';
-
 <form action="test.php" method="post">
-    <input type="button" name="response" value="Go!" />
-    <input type="button" name="response2" value="Back!" />
+    <input type="submit" name="response" value="Go!" />
+    <input type="submit" name="response2" value="Back!" />
 </form>
 
 <?php
+
+include 'index.php';
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
