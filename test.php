@@ -1,11 +1,11 @@
+include 'index.php';
+
 <form action="test.php" method="post">
     <input type="button" name="response" value="Go!" />
     <input type="button" name="response2" value="Back!" />
 </form>
 
 <?php
-
-$presses = 0;
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
