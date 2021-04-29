@@ -16,7 +16,7 @@
         {
             case 0:
                 echo "ayeeee gg you pressed the button";
-                $presses;
+                $presses++;
                 break;
             case 1:
                 echo "You clicked it again! How...cool?";
