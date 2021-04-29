@@ -6,6 +6,7 @@
     else
     {
         $presses = 0;
+        header("Location: /test.php?presses=" . $presses);
     }
 ?>
 
