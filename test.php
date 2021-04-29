@@ -3,8 +3,14 @@
 </form>
 
 <?php
-
-$presses = $_GET['presses'];
+ if(isset($_GET['presses']))
+ {
+    $presses = $_GET['presses'];
+ }
+else
+{
+    $presses = 0;
+}
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
