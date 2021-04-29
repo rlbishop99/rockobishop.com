@@ -31,22 +31,22 @@
             case 0:
                 echo "ayeeee gg you pressed the button";
                 $presses++;
-                header("Location: /test.php?presses=" . $_POST['presses']);
+                header("Location: /test.php?presses=" . $_POST['presses'] + 1);
                 break;
             case 1:
                 echo "You clicked it again! How...cool?";
                 $presses++;
-                header("Location: /test.php?presses=" . $_POST['presses']);
+                header("Location: /test.php?presses=" . $_POST['presses'] + 1);
                 break;
             case 2:
                 echo "You clicked it again? Okay...";
                 $presses++;
-                header("Location: /test.php?presses=" . $_POST['presses']);
+                header("Location: /test.php?presses=" . $_POST['presses'] + 1);
                 break;
             case 3:
                 echo "Why are you doing this to yourself?";
                 $presses++;
-                header("Location: /test.php?presses=" . $_POST['presses']);
+                header("Location: /test.php?presses=" . $_POST['presses'] + 1);
                 break;
             default:
                 echo "Okay, I'm done. Have fun..?";
