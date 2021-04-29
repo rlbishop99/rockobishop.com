@@ -3,6 +3,9 @@
 </form>
 
 <?php
+
+$presses = 0;
+
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
         buttonPress();
@@ -10,7 +13,6 @@
 
     function buttonPress()
     {
-        $presses = 0;
 
         switch(presses)
         {
