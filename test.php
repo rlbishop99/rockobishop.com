@@ -1,22 +1,39 @@
+<form action="test.php" method="post">
+    <input type="submit" name="response" value="GO" />
+</form>
+
 <?php
-
-function uniqidReal($length = 8) {
-    // uniqid gives 8 chars, can be changed
-    if (function_exists("random_bytes")) {
-        $bytes = random_bytes(ceil($length / 2));
-    } elseif (function_exists("openssl_random_pseudo_bytes")) {
-        $bytes = openssl_random_pseudo_bytes(ceil($length / 2));
-    } else {
-        throw new Exception("no cryptographically secure random function available");
+    if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
+    {
+        buttonPress();
     }
-    return substr(bin2hex($bytes), 0, $length);
-}
 
+    function buttonPress()
+    {
+        $presses = 0;
 
-//for testing
-for($i = 0; $i < 10; $i++) {
-  echo "<br>";
-  echo uniqidReal();
-}
+        switch(presses)
+        {
+            case 0:
+                echo "ayeeee gg you pressed the button";
+                $presses;
+                break;
+            case 1:
+                echo "You clicked it again! How...cool?";
+                $presses++;
+                break;
+            case 2:
+                echo "You clicked it again? Okay...";
+                $presses++;
+                break;
+            case 3:
+                echo "Why are you doing this to yourself?";
+                $presses++;
+                break;
+            default:
+                echo "Okay, I'm done. Have fun..?";
+                break;
+        }
+    }
 
 ?>
