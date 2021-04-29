@@ -1,5 +1,6 @@
 <form action="test.php" method="post">
-    <input type="submit" name="response" value="GO" />
+    <input type="button" name="response" value="Go!" />
+    <input type="button" name="response2" value="Back!" />
 </form>
 
 <?php
