@@ -30,7 +30,7 @@ if(!isset($_SESSION['presses'])) {
             echo "Why are you doing this to yourself?";
             break;
         default:
-            echo "Okay, I'm done. Have fun..?";
+            echo "Welcome to my site!";
             break;
     }
 
