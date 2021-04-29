@@ -16,8 +16,8 @@ if(!isset($_SESSION['presses'])) {
 
     if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['response']))
     {
-        buttonPress();
         showMessage();
+        buttonPress();
     }
 
     function buttonPress()
