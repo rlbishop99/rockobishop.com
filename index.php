@@ -8,7 +8,7 @@
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  align: center;
+  text-align: center;
   color: DarkGray;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
