@@ -1,1 +1,1 @@
-<?php echo " <b> fuck </b>";?>
+<?php echo " <b><center> fuck </center></b>";?>
