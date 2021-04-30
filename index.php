@@ -1,21 +1,19 @@
 
 <div class="welcome-site">
-    <p>Welcome to my site!</p>
+    <p><center>Welcome to my site!</center></p>
 </div>
 
 <style>
 .welcome-site {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center !important;
-  border: 3px black !important;
   font-size: 50px;
   color: DarkGray;
-  animation: fadeIn linear 3s;
-  -webkit-animation: fadeIn linear 3s;
-  -moz-animation: fadeIn linear 3s;
-  -o-animation: fadeIn linear 3s;
-  -ms-animation: fadeIn linear 3s;
+  animation: fadeIn linear 2.5s;
+  -webkit-animation: fadeIn linear 2.5s;
+  -moz-animation: fadeIn linear 2.5s;
+  -o-animation: fadeIn linear 2.5s;
+  -ms-animation: fadeIn linear s;
 }
 
 @keyframes fadeIn {
