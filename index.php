@@ -3,16 +3,17 @@
     <p>Welcome to my site!</p>
 </div>
 
+<style>
 .welcome-site {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150px;
   color: black;
-  animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
 }
 
 @keyframes fadeIn {
@@ -39,6 +40,7 @@
   0% {opacity:0;}
   100% {opacity:1;}
 }
+</style>
 
 <?php 
     //echo '<b><center> <span style="color: green; font-size: 50px;">Welcome to my site! </center></b>';
