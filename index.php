@@ -1,6 +1,9 @@
 <header>
-<div class="TopBar">
-<button type="button">Click me!</button>
+<div class="TopBar"></div>
+
+<div class="button">
+    <button type="button">Click me!</button>
+</div>
 
 
 
@@ -54,7 +57,7 @@
     left:0;
     width:100%;
     height:60px;
-    background-color: grey;
+    background-color: darkgrey;
 }
 
 .button
