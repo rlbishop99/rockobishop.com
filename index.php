@@ -6,6 +6,8 @@
 <style>
 .welcome-site {
   text-align: center;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   color: DarkGray;
