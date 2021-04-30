@@ -53,7 +53,7 @@
 .button
 {
     border: none;
-    background-color: inherit;
+    background-color: forestgreen;
     padding: 14px 28px;
     font-size: 25px;
     cursor: pointer;
