@@ -1,4 +1,6 @@
-<header><button type="button">Click me!</button>
+<header>
+<div class="TopBar">
+<button type="button">Click me!</button>
 
 
 
@@ -44,6 +46,15 @@
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+.TopBar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:60px;
+    background-color: black;
 }
 </style>
 
