@@ -2,7 +2,7 @@
 <div class="TopBar"></div>
 
 <div class="button">
-    <button type="button">Click me!</button>
+    <button type="button">About</button>
 </div>
 
 
@@ -58,11 +58,6 @@
     width:100%;
     height:60px;
     background-color: darkgrey;
-}
-
-.button
-{
-    position: center;
 }
 </style>
 
