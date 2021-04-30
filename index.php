@@ -1,1 +1,1 @@
-<?php echo " <b><center> fuck </center></b>";?>
+<?php echo '<b><center> <span style="color: green; font-size: 50px;" fuck </center></b>';?>
