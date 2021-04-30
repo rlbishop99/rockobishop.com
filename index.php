@@ -8,8 +8,6 @@
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
-  text-align: center;
-  border: 3px black;
   color: DarkGray;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
