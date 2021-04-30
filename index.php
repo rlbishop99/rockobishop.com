@@ -1,14 +1,14 @@
 <header>
 <div class="TopBar"></div>
 
-<div class="button">
+<div class="button-container">
     <button type="button">About</button>
 </div>
 
 
 
 <div class="welcome-site">
-    <p>Welcome to my site!</p>
+    <h1>Welcome to my site!</h1>
 </div>
 
 <style>
