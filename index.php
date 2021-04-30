@@ -7,8 +7,8 @@
 .welcome-site {
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  border: 50px black;
+  text-align: center !important;
+  border: 3px black !important;
   font-size: 50px;
   color: DarkGray;
   animation: fadeIn linear 3s;
