@@ -1,11 +1,11 @@
 
 <div class="welcome-site">
-    <p><center>Welcome to my site!</center></p>
+    <p>Welcome to my site!</p>
 </div>
 
 <style>
 .welcome-site {
-  display: inline-block;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   color: DarkGray;
