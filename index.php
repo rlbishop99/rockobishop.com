@@ -9,11 +9,11 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
   color: thistle;
-  animation: fadeIn linear 2s;
-  -webkit-animation: fadeIn linear 2s;
-  -moz-animation: fadeIn linear 2s;
-  -o-animation: fadeIn linear 2s;
-  -ms-animation: fadeIn linear 2s;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
 }
 
 @keyframes fadeIn {
