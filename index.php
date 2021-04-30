@@ -1,3 +1,6 @@
+<header><button type="button">Click me!</button>
+
+
 
 <div class="welcome-site">
     <p>Welcome to my site!</p>
@@ -45,7 +48,6 @@
 </style>
 
 <?php 
-    //echo '<b><center> <span style="color: green; font-size: 50px;">Welcome to my site! </center></b>';
     echo '<body style="background-color: DarkSlateGray">';
     echo ' <center><img src="testphp.png"/></center>';
 ?>
