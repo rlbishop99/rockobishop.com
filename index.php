@@ -1,16 +1,6 @@
 <header>
 <div class="TopBar"></div>
 
-<div class="button-container">
-    <button type="button">About</button>
-</div>
-
-
-
-<div class="welcome-site">
-    <h1>Welcome to my site!</h1>
-</div>
-
 <style>
 .welcome-site {
   text-align: center;
@@ -59,7 +49,25 @@
     height:60px;
     background-color: darkgrey;
 }
+
+.button
+{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 25px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {background: green;}
 </style>
+
+<button class="button">About</button>;
+
+<div class="welcome-site">
+    <p>Welcome to my site!</p>
+</div>
 
 <?php 
     echo '<body style="background-color: DarkSlateGray">';
