@@ -88,7 +88,7 @@
 </head>
 <body>
 
-<div class="TopBar"></div>
+<!--<div class="TopBar"></div>-->
   <a href="#about">About</a>;
   <a href="#projects">Projects</a>;
   <div class="dropdown">
