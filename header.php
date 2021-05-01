@@ -14,7 +14,6 @@
   float: right;
   overflow: hidden;
 }
-
 .navbar a {
   float: right;
   font-size: 16px;
@@ -69,8 +68,6 @@
 <body>
 
 <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
   <div class="dropdown">
     <button class="dropbtn">More 
       <i class="fa fa-caret-down"></i>
@@ -81,6 +78,8 @@
       <a href="#">Link 3</a>
     </div>
   </div> 
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
 </div>
 
 <h3>More Button/Dropdown Menu inside a Navigation Bar</h3>
