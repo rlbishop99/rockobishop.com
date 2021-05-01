@@ -129,7 +129,7 @@ body {
     <div class="fakeimg" style="height:200px;">Image</div>
     <p>I'm a Senior at the University of North Texas, studying to graduate with a degree in Computer Science. I enjoy development, but I'm not sure what I want to focus on yet. 
     I enjoy video game development, and am currently learning HTML, PHP, and CSS. That's what I used to make this site, in fact. You can click
-    <a target="_blank" href="https://dev.rockobishop.com/resume.pdf">here.</a></p>
+    <a target="_blank" href="resume.pdf">here to view my Resume.</a></p>
     <h3>More Text</h3>
     <p>Lorem ipsum dolor sit ame.</p>
     <div class="fakeimg" style="height:60px;">Image</div><br>
