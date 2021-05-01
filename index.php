@@ -53,6 +53,7 @@
   font-size: 16px;
   color: Black;
   text-align: center;
+  background-color: green;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -67,7 +68,7 @@
   border: none;
   color: black;
   padding: 14px 16px;
-  background-color: inherit;
+  background-color: green;
   font-family: inherit;
   margin: 0;
 }
