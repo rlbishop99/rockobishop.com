@@ -82,6 +82,11 @@
   <a href="#news">News</a>
 </div>
 
+<?php 
+    echo '<body style="background-color: DarkSlateGray">';
+    echo ' <center><img src="testphp.png"/></center>';
+?>
+
 <h3>More Button/Dropdown Menu inside a Navigation Bar</h3>
 <p>Hover over the "More" link to see the dropdown menu.</p>
 
