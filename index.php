@@ -1,7 +1,4 @@
-<header>
-<div class="TopBar"></div>
-<button class="button">About</button>;
-
+<head>
 <style>
 .welcome-site {
   text-align: center;
@@ -63,12 +60,31 @@
 
 .btn:hover {background: green;}
 </style>
+</head>
+<body>
+
+<div class='<right>"TopBar"</right>'></div>
+  <button class="button">About</button>;
+  <button class="button">Projects</button>;
+  <button class="button">More
+    <i class="fa fa-caret-down"></i>
+  </button>;
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
 
 <div class="welcome-site">
     <p>Welcome to my site!</p>
 </div>
 
+
+
 <?php 
     echo '<body style="background-color: DarkSlateGray">';
     echo ' <center><img src="testphp.png"/></center>';
 ?>
+
+</body>
