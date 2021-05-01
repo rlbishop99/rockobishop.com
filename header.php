@@ -112,14 +112,14 @@ body {
 
 <div class="navbar">
   <a href="">Rocko Bishop | Showcase</a>
-  <a href="#" class="right">About</a>
+  <a href="/test.php" class="right">About</a>
   <a href="#" class="right">Products</a>
   <a href="#" class="right">More</a>
 </div>
 
 <div class="header">
-  <h1>My Website</h1>
-  <p>A website created by me.</p>
+  <h1>Rocko Bishop | Showcase</h1>
+  <p>This page </p>
 </div>
 
 <div class="row">
@@ -128,7 +128,7 @@ body {
     <h5>Photo of me:</h5>
     <div class="fakeimg" style="height:200px;">Image</div>
     <p>I'm a Senior at the University of North Texas, studying to graduate with a degree in Computer Science. I enjoy development, but I'm not sure what I want to focus on yet. 
-    I enjoy video game development, and am currently learning HTML, PHP, and CSS. That's what I used to make this site, in fact. You can click
+    I enjoy video game development, and am currently learning HTML, PHP, and CSS. You can click
     <a target="_blank" href="resume.pdf" download="resume.pdf">here</a> 
     to view my Resume.</p>
     <h3>More Text</h3>
