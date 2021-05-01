@@ -4,6 +4,7 @@
 <title>Page Title</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 * {
   box-sizing: border-box;
@@ -107,16 +108,16 @@ body {
 </head>
 <body>
 
-<div class="header">
-  <h1>My Website</h1>
-  <p>A website created by me.</p>
-</div>
-
 <div class="navbar">
   <a href="#">Link</a>
   <a href="#">Link</a>
   <a href="#">Link</a>
   <a href="#" class="right">Link</a>
+</div>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>A website created by me.</p>
 </div>
 
 <div class="row">
