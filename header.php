@@ -48,8 +48,11 @@
   overflow: hidden;
   background-color: #333;
   font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 80px;
+  position: fixed;
 }
 
 .dropdown {
