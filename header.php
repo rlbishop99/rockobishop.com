@@ -127,6 +127,13 @@
   <a href="#news">News</a>
 </div>
 
+
+
+
+
+
+
+
 <div class="welcome-site">
     <p>Welcome to my site!</p>
 </div>
