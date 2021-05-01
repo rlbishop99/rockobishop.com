@@ -10,6 +10,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
 .navbar a {
   float: right;
   font-size: 16px;
@@ -17,11 +22,6 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-.dropdown {
-  float: right;
-  overflow: hidden;
 }
 
 .dropdown .dropbtn {
