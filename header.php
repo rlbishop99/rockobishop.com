@@ -11,7 +11,7 @@
 }
 
 .navbar a {
-  float: left;
+  float: right;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -20,7 +20,7 @@
 }
 
 .dropdown {
-  float: left;
+  float: right;
   overflow: hidden;
 }
 
