@@ -1,5 +1,6 @@
 <header>
 <div class="TopBar"></div>
+<button class="button">About</button>;
 
 <style>
 .welcome-site {
@@ -62,8 +63,6 @@
 
 .btn:hover {background: green;}
 </style>
-
-<button class="button">About</button>;
 
 <div class="welcome-site">
     <p>Welcome to my site!</p>
