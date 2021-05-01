@@ -89,8 +89,8 @@
 <body>
 
 <!--<div class="TopBar"></div>-->
-  <a href="#about">About</a>;
-  <a href="#projects">Projects</a>;
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
   <div class="dropdown">
     <button class="dropbtn">More
       <i class="fa fa-caret-down"></i>
