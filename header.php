@@ -109,10 +109,10 @@ body {
 <body>
 
 <div class="navbar">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" class="right">Link</a>
+  <a href="">Rocko Bishop | Showcase</a>
+  <a href="#" class="right">About</a>
+  <a href="#" class="right">Products</a>
+  <a href="#" class="right">More</a>
 </div>
 
 <div class="header">
