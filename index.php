@@ -48,6 +48,30 @@
     background-color: darkgrey;
 }
 
+.TopBar a {
+  float: right;
+  font-size: 16px;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown{
+  float: right;
+  overflow: hidden;
+}
+
+.dropown .dropbtn{
+  font-size: 16px;
+  border: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
 .button
 {
     border: none;
@@ -64,15 +88,17 @@
 <body>
 
 <div class="TopBar"></div>
-  <button class="button">About</button>;
-  <button class="button">Projects</button>;
-  <button class="button">More
-    <i class="fa fa-caret-down"></i>
-  </button>;
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+  <a href="#about">About</a>;
+  <a href="#projects">Projects</a>;
+  <div class="dropdown">
+    <button class="dropbtn">More
+      <i class="fa fa-caret-down"></i>
+    </button>;
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
   </div>
 </div>
 
