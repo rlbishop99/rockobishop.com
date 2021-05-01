@@ -49,11 +49,12 @@ body {
   float: right;
 }
 
-/* Change color on hover */
+/* Change color on hover
 .navbar a:hover {
   background-color: #ddd;
   color: black;
-}
+}*/
+
 
 /* Column container */
 .row {  
