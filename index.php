@@ -63,7 +63,7 @@
 </head>
 <body>
 
-<div class='<right>"TopBar"</right>'></div>
+<div class="TopBar"></div>
   <button class="button">About</button>;
   <button class="button">Projects</button>;
   <button class="button">More
