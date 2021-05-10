@@ -68,7 +68,7 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #f1f1f1;
+  background-color: #2d2d2d;
   padding: 20px;
 }
 
