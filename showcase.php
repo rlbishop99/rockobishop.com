@@ -75,7 +75,7 @@ body {
 /* Main column */
 .main {   
   flex: 70%;
-  background-color: white;
+  background-color: #acb9c9;
   padding: 20px;
 }
 
@@ -175,14 +175,13 @@ body {
       <li>SSH</li>
     </ul>
     <p>I'm quite new to Web Development. This website has been my first real project since I've begun learning. I primarily format my websites using
-       HTML and CSS. I'm trying to learn how to best integrate PHP functionality into my websties, but it is an ongoing process. I host my websites on
-       a Raspberry Pi, so I use SSH to make sure my remote repositories are in sync with the local repositories on the Pi. Controlling my Pi from
-       anywhere in the world means I can do Web Development anywhere, which is amazing.
+       HTML and CSS. I'm trying to learn how to best integrate PHP functionality into my websites, but it is an ongoing process. I host my websites on
+       a Raspberry Pi, so I use SSH and Git to make sure my remote repositories are in sync with the local repositories on the Pi. 
+       Controlling my Pi from anywhere in the world means I can do Web Development anywhere, which is amazing.
     </p>
     <br>
     <h2>TITLE HEADING</h2>
     <h5>Title description, Sep 2, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
     <p>Some text..</p>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
   </div>
