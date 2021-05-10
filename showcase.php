@@ -19,7 +19,7 @@ body {
 .header {
   background: url("images/ocean.png");
   background-size:100% 100%;
-  padding: 80px;
+  padding: 40px;
   text-align: center;
   color: white;
 }
