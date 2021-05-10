@@ -124,6 +124,7 @@ body {
 <div class="header">
   <h1>Rocko Bishop | Showcase</h1>
   <p>Your next employee of the month. </p>
+  <div class="photo"><img src="images/ocean.png"/></div>
 </div>
 
 <div class="row">
