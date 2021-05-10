@@ -20,6 +20,7 @@ body {
   padding: 80px;
   text-align: center;
   background-image: url(images/ocean.png);
+  object-fit: cover;
   color: white;
 }
 
