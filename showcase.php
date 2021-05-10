@@ -142,10 +142,22 @@ body {
     <div class="fakeimg" style="height:60px;">Image</div>
   </div>
   <div class="main">
-    <h2>TITLE HEADING</h2>
-    <h5>Title description, Dec 7, 2017</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
+    <h2>Skills and Tools</h2>
+    <h5>General Knowledge:</h5>
+    <ul>
+      <li>Computer Hardware/Building</li>
+      <li>Git</li>
+      <li>SSH</li>
+      <li>C#</li>
+      <li>C++</li>
+      <li>Unity</li>
+    </ul>
+    <h5>Web Development:</h5>
+    <ul>
+      <li>PHP</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     <br>
     <h2>TITLE HEADING</h2>
