@@ -93,14 +93,9 @@ body {
 }
 
 .photo{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("images/ocean.png");
-  background-repeat: no-repeat;
-  background-size: contain;
+  width:100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -137,7 +132,7 @@ body {
   <div class="side">
     <h2>About Me</h2>
     <!-- <h5>Photo of me:</h5> -->
-    <div class="photo"></div>
+    <div class="photo"><img src="images/testphp.png"/></div>
     <p>I'm a Senior at the University of North Texas, studying to graduate with a degree in Computer Science. I enjoy development, but I'm not sure what I want to focus on yet. 
     I enjoy video game development, and am currently learning HTML, PHP, and CSS. You can click
     <a target="_blank" href="resume.pdf" download="resume.pdf">here</a> 
