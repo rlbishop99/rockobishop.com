@@ -76,7 +76,7 @@ body {
 .main {   
   flex: 70%;
   background-color: #292929;
-  color: #e8e8e8;
+  color: #c8c8c8;
   padding: 20px;
 }
 
