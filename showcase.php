@@ -117,19 +117,17 @@ body {
   <a href="">Rocko Bishop | Showcase</a>
   <a href="#" class="right">More</a>
   <a href="#" class="right">Projects</a>
-  <!-- <a href="/test.php" class="right">About</a> -->
 </div>
 
 <div class="header">
   <h1>Rocko Bishop | Showcase</h1>
   <p>Your next employee of the month. </p>
-  <div class="photo"><img src="images/ocean.png"/></div>
+  <!-- <div class="photo"><img src="images/ocean.png"/></div> -->
 </div>
 
 <div class="row">
   <div class="side">
     <h2>About Me</h2>
-    <!-- <h5>Photo of me:</h5> -->
     <div class="photo"><img src="images/testphp.png"/></div>
     <p>I'm a Senior at the University of North Texas, studying to graduate with a degree in Computer Science. I enjoy development, but I'm not sure what I want to focus on yet. 
     I enjoy video game development, and am currently learning HTML, PHP, and CSS. You can click
