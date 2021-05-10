@@ -19,7 +19,7 @@ body {
 .header {
   padding: 80px;
   text-align: center;
-  background-image: url("images/ocean.png");
+  background-image: url("ocean.png");
   color: white;
 }
 
@@ -132,7 +132,7 @@ body {
     <a target="_blank" href="resume.pdf" download="resume.pdf">here</a> 
     to view my Resume.</p>
     <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
+    <p></p>
     <div class="fakeimg" style="height:60px;">Image</div><br>
     <div class="fakeimg" style="height:60px;">Image</div><br>
     <div class="fakeimg" style="height:60px;">Image</div>
