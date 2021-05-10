@@ -17,6 +17,8 @@ body {
 
 /* Style the header */
 .header {
+  background: url("images/ocean.png");
+  background-size:contain;
   padding: 80px;
   text-align: center;
   color: white;
