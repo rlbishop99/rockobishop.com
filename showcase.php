@@ -126,7 +126,7 @@ body {
   <div class="side">
     <h2>About Me</h2>
     <!-- <h5>Photo of me:</h5> -->
-    <div class="photo"><img src="testphp.png" width="400" height="400"/></div>
+    <div class="photo"><img src="testphp.png" width="300" height="350"/></div>
     <p>I'm a Senior at the University of North Texas, studying to graduate with a degree in Computer Science. I enjoy development, but I'm not sure what I want to focus on yet. 
     I enjoy video game development, and am currently learning HTML, PHP, and CSS. You can click
     <a target="_blank" href="resume.pdf" download="resume.pdf">here</a> 
