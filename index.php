@@ -111,7 +111,7 @@
 
 <?php 
     echo '<body style="background-color: DarkSlateGray">';
-    echo ' <center><img src="testphp.png"/></center>';
+    echo ' <center><img src="images/testphp.png"/></center>';
 ?>
 
 </body>
