@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>Rocko Bishop | Showcase</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -112,14 +112,14 @@ body {
 
 <div class="navbar">
   <a href="">Rocko Bishop | Showcase</a>
-  <a href="/test.php" class="right">About</a>
-  <a href="#" class="right">Products</a>
   <a href="#" class="right">More</a>
+  <a href="#" class="right">Products</a>
+  <a href="/test.php" class="right">About</a>
 </div>
 
 <div class="header">
   <h1>Rocko Bishop | Showcase</h1>
-  <p>This page </p>
+  <p>Your next employee of the month! </p>
 </div>
 
 <div class="row">
