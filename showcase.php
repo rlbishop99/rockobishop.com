@@ -75,7 +75,7 @@ body {
 /* Main column */
 .main {   
   flex: 70%;
-  background-color: #acb9c9;
+  background-color: #323232;
   padding: 20px;
 }
 
