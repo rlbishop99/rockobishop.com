@@ -146,19 +146,39 @@ body {
     <h5>General Knowledge:</h5>
     <ul>
       <li>Computer Hardware/Building</li>
+      <li>Unity</li>
+      <li>Aesprite</li>
+      <li>Adobe Premiere Pro</li>
+    </ul>
+    <p>I've been researching and building computers for over 7 years. I use my current build to practice my game development skills using the Unity 
+       engine, and Aesprite to make my pixel art assets. I used to make small-scale low budget short 'films' and edited them with Adobe Premiere Pro.
+       I'm constantly trying to learn new things, and I hope to expand this section with more concrete skills soon!
+    </p>
+    <h5>Software Development:</h5>
+    <ul>
       <li>C#</li>
       <li>C++</li>
-      <li>Unity</li>
+      <li>Some Java</li>
+      <li>Some Python</li>
       <li>Git</li>
-      <li>SSH</li>
     </ul>
+    <p>I use Unity to do game development, so I believe I'm most proficient with the C# programming language. I've studied C++ the most throughout
+       my college career, so I have a solid understanding of the syntax and logic that comes with the language. I have minor experience with Java
+       and Python, and am working on developing those skills to one day be marketable. I use Git to host my major projects - becoming more
+       familiar with version control has been incredibly helpful as I've undergone my programming education.
+    </p>
     <h5>Web Development:</h5>
     <ul>
       <li>HTML</li>
       <li>CSS</li>
       <li>PHP</li>
+      <li>SSH</li>
     </ul>
-    <p>I've been researching and building computers for over 7 years. </p>
+    <p>I'm quite new to Web Development. This website has been my first real project since I've begun learning. I primarily format my websites using
+       HTML and CSS. I'm trying to learn how to best integrate PHP functionality into my websties, but it is an ongoing process. I host my websites on
+       a Raspberry Pi, so I use SSH to make sure my remote repositories are in sync with the local repositories on the Pi. Controlling my Pi from
+       anywhere in the world means I can do Web Development anywhere, which is amazing.
+    </p>
     <br>
     <h2>TITLE HEADING</h2>
     <h5>Title description, Sep 2, 2017</h5>
