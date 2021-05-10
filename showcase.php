@@ -68,8 +68,7 @@ body {
 /* Sidebar/left column */
 .side {
   flex: 30%;
-  background-color: #424242;
-  color: #c8c8c8
+  background-color: #f1f1f1;
   padding: 20px;
 }
 
@@ -77,7 +76,7 @@ body {
 .main {   
   flex: 70%;
   background-color: #292929;
-  color: #c8c8c8;
+  color: #e8e8e8;
   padding: 20px;
 }
 
