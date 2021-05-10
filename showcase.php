@@ -146,19 +146,19 @@ body {
     <h5>General Knowledge:</h5>
     <ul>
       <li>Computer Hardware/Building</li>
-      <li>Git</li>
-      <li>SSH</li>
       <li>C#</li>
       <li>C++</li>
       <li>Unity</li>
+      <li>Git</li>
+      <li>SSH</li>
     </ul>
     <h5>Web Development:</h5>
     <ul>
-      <li>PHP</li>
       <li>HTML</li>
       <li>CSS</li>
+      <li>PHP</li>
     </ul>
-    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p>I've been researching and building computers for over 7 years. </p>
     <br>
     <h2>TITLE HEADING</h2>
     <h5>Title description, Sep 2, 2017</h5>
