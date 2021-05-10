@@ -69,6 +69,7 @@ body {
 .side {
   flex: 30%;
   background-color: #2d2d2d;
+  color: #c8c8c8;
   padding: 20px;
 }
 
