@@ -210,7 +210,9 @@ body {
 </div>
 
 <div class="footer">
-  <h2>Footer</h2>
+  <a>© rockobishop.com - All rights reserved.</a>
+  <a href="#" class="right">More</a>
+  <a href="/index.php" class="right">Go Home</a>
 </div>
 
 </body>
