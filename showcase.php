@@ -97,6 +97,20 @@ body {
   background-color: #333;
 }
 
+.footer a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.footer a.right {
+  float: right;
+}
+
 .photo{
   background-size: 100% 100%;
 }
