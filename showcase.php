@@ -113,6 +113,13 @@ body {
     width:100%;
   }
 }
+
+@media screen and (max-width: 412px){
+body{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+}
 </style>
 </head>
 <body>
