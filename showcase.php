@@ -3,7 +3,7 @@
 <head>
 <title>Rocko Bishop | Showcase</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 * {
@@ -112,13 +112,6 @@ body {
     float: none;
     width:100%;
   }
-}
-
-@media screen and (max-width: 412px){
-header{
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
 }
 </style>
 </head>
