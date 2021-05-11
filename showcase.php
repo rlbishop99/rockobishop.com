@@ -92,7 +92,7 @@ body {
 
 /* Footer */
 .footer {
-  padding: 5px;
+  padding: 2px;
   text-align: center;
   background: #ddd;
   background-color: #333;
