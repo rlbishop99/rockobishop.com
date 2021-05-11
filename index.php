@@ -179,7 +179,6 @@ body {
     <h3>More Text</h3>
     <p></p>
     <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
   </div>
   <div class="main">
     <h2>Skills and Tools</h2>
