@@ -125,6 +125,18 @@ body {
     width: 375px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .embeddedPhoto {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .embeddedPhoto {
+    width: 250px;
+  }
+}
 </style>
 </head>
 <body>
