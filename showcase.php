@@ -71,6 +71,7 @@ body {
   background-color: #2d2d2d;
   color: #c8c8c8;
   padding: 20px;
+  width: 100%;
 }
 
 /* Main column */
@@ -79,6 +80,7 @@ body {
   background-color: #292929;
   color: #c8c8c8;
   padding: 20px;
+  width: 100%;
 }
 
 /* Fake image, just for this example */
@@ -97,6 +99,10 @@ body {
 
 .photo{
   background-size: 100% 100%;
+}
+
+.embeddedPhoto{
+  object-fit: contain;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -132,7 +138,7 @@ body {
 <div class="row">
   <div class="side">
     <h2>About Me</h2>
-    <div class="photo"><img src="images/testphp.png"/></div>
+    <div class="embeddedPhoto"><img src="images/testphp.png"/></div>
     <p>I'm a Senior at the University of North Texas, studying to graduate with a degree in Computer Science. I enjoy development, but I'm not sure what I want to focus on yet. 
     I enjoy video game development, and am currently learning HTML, PHP, and CSS. You can click
     <a target="_blank" href="resume.pdf" download="resume.pdf">here</a> 
