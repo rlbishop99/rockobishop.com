@@ -103,7 +103,7 @@ body {
 
 .embeddedPhoto{
   width: 85%;
-  height: 85;
+  height: 85%;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -118,12 +118,6 @@ body {
   .navbar a {
     float: none;
     width:100%;
-  }
-}
-
-@media screen and (max-width: 500px){
-  .embeddedPhoto{
-    width: 85%; height: 85%;
   }
 }
 </style>
