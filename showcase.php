@@ -119,6 +119,12 @@ body {
     width:100%;
   }
 }
+
+@media screen and (max-width: 500px){
+  .embeddedPhoto{
+    width: 85%; height: 85%;
+  }
+}
 </style>
 </head>
 <body>
