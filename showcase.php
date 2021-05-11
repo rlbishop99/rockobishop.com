@@ -122,9 +122,7 @@ body {
 
 @media screen and (max-width: 500px) {
   .embeddedPhoto {
-    .img{
-      width: 375px;
-    }
+    width: 375px;
   }
 }
 </style>
