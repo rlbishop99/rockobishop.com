@@ -95,6 +95,7 @@ body {
   padding: 20px;
   text-align: center;
   background: #ddd;
+  background-color: #333;
 }
 
 .photo{
