@@ -112,10 +112,6 @@ body {
   float: right;
 }
 
-.footer a.center {
-  display: inline-block;
-}
-
 .photo{
   background-size: 100% 100%;
 }
@@ -229,7 +225,6 @@ body {
 
 <div class="footer">
   <a>© rockobishop.com - All rights reserved.</a>
-  <a class="center"><img src="images/linkedin.png"/>
   <a href="/index.php" class="right">Go Home</a>
 </div>
 
