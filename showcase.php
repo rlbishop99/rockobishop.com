@@ -223,7 +223,7 @@ body {
 </div>
 
 <div class="footer">
-  <a style="color: #c8c8c8">© rockobishop.com - All rights reserved.</a>
+  <a>© rockobishop.com - All rights reserved.</a>
   <a href="#" class="right">More</a>
   <a href="/index.php" class="right">Go Home</a>
 </div>
