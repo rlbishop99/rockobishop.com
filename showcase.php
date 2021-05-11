@@ -113,7 +113,7 @@ body {
 }
 
 .footer a.center {
-  float: center;
+  display: inline-block;
 }
 
 .photo{
