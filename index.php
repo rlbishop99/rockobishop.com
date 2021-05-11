@@ -176,9 +176,10 @@ body {
     I enjoy video game development, and am currently learning HTML, PHP, and CSS. You can click
     <a target="_blank" href="resume.pdf" download="resume.pdf">here</a> 
     to view my Resume.</p>
-    <h3>More Text</h3>
-    <p></p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <h3>Career Interests</h3>
+    <p>I'm currently interested in video game design and software development. I hope to work in a team of knowledgeable people to make games or
+       programs that have an impact.</p><br>
+    <h2>I'm eager to get started!</h2>
   </div>
   <div class="main">
     <h2>Skills and Tools</h2>
