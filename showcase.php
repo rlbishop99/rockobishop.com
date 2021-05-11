@@ -93,7 +93,6 @@ body {
 /* Footer */
 .footer {
   padding: 10px;
-  text-align: center;
   background: #ddd;
   background-color: #333;
 }
@@ -210,7 +209,7 @@ body {
 </div>
 
 <div class="footer">
-  <a>© rockobishop.com - All rights reserved.</a>
+  <a style="color: #c8c8c8">© rockobishop.com - All rights reserved.</a>
   <a href="#" class="right">More</a>
   <a href="/index.php" class="right">Go Home</a>
 </div>
