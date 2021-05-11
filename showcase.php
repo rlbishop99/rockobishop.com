@@ -102,6 +102,7 @@ body {
   display: block;
   color: white;
   text-align: center;
+  padding: 14px 20px;
   text-decoration: none;
 }
 
