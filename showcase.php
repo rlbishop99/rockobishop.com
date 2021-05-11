@@ -149,7 +149,7 @@ body {
 
 <div class="header">
   <h1>Rocko Bishop | Showcase</h1>
-  <p>Your next employee of the month. </p>
+  <div style="background-color: black"><p>Your next employee of the month.</p></div>
   <!-- <div class="photo"><img src="images/ocean.png"/></div> -->
 </div>
 
@@ -165,7 +165,6 @@ body {
     <p></p>
     <div class="fakeimg" style="height:60px;">Image</div><br>
     <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
   </div>
   <div class="main">
     <h2>Skills and Tools</h2>
