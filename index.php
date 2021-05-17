@@ -13,6 +13,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Style the header */
@@ -83,20 +85,12 @@ body {
   width: 100%;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
 /* Footer */
 .footer {
   padding: 10px;
   background: #ddd;
   background-color: #333;
   overflow: hidden;
-  height: auto;
 }
 
 .footer a {
