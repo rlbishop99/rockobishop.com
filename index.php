@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" height=100%>
+<html lang="en">
 <head>
 <title>Rocko Bishop | Showcase</title>
 <meta charset="UTF-8">
@@ -8,6 +8,10 @@
 <style>
 * {
   box-sizing: border-box;
+}
+
+html{
+  height: 100%;
 }
 
 body {
