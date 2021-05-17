@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" height=100%>
 <head>
 <title>Rocko Bishop | Showcase</title>
 <meta charset="UTF-8">
