@@ -11,14 +11,14 @@
 }
 
 html{
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Style the header */
