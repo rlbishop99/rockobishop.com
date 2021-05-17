@@ -72,7 +72,6 @@ body {
   color: #c8c8c8;
   padding: 20px;
   width: 100%;
-  height: 100%;
 }
 
 /* Main column */
@@ -82,7 +81,6 @@ body {
   color: #c8c8c8;
   padding: 20px;
   width: 100%;
-  height: 100%;
 }
 
 /* Fake image, just for this example */
