@@ -96,7 +96,6 @@ body {
   background: #ddd;
   background-color: #333;
   overflow: hidden;
-  position: fixed;
 }
 
 .footer a {
