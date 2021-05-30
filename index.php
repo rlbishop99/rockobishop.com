@@ -156,13 +156,13 @@ body {
 <body>
 
 <div class="navbar">
-  <a href="">Go Fuck Yourself</a>
+  <a href="">Rocko Bishop | Showcase</a>
   <a href="#" class="right">More</a>
   <a href="#" class="right">Projects</a>
 </div>
 
 <div class="header">
-  <h1>Rocko Bishop | Showcase</h1>
+  <h1>Go Fuck Yourself</h1>
   <p>Your next employee of the month.</p>
   <!-- <div class="photo"><img src="images/ocean.png"/></div> -->
 </div>
