@@ -162,7 +162,7 @@ body {
 </div>
 
 <div class="header">
-  <h1>Go Fuck Yourself</h1>
+  <h1>Rocko Bishop | Showcase</h1>
   <p>Your next employee of the month.</p>
   <!-- <div class="photo"><img src="images/ocean.png"/></div> -->
 </div>
