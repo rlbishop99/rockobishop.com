@@ -4,9 +4,9 @@
 
     .td{
         text-align: center;
-        vertical-align: middle;
+        vertical-align: bottom;
     }
-    
+
 </style>    
 <title>Cog HP Calculator</title>
 </head>
