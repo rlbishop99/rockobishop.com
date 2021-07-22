@@ -26,14 +26,14 @@
 <table class="table_div">
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><img src="images/bossbots/flunky.png" onclick="enableDiv()"/><p>Flunky</p></button></td>
-        <td><button onclick=enableDiv()><img src="images/bossbots/pencilpusher.png"/><p class="text">Pencil Pusher</p></td>
-        <td><button onclick=enableDiv()><img src="images/bossbots/yesman.png"/><p class="text">Yesman</p></td>
-        <td><button onclick=enableDiv()><img src="images/bossbots/micromanager.png"/><p class="text">Micromanager</p></td>
-        <td><button onclick=enableDiv()><img src="images/bossbots/downsizer.png"/><p class="text">Downsizer</p></td>
-        <td><button onclick=enableDiv()><img src="images/bossbots/headhunter.png"/><p class="text">Head Hunter</p></td>
-        <td><button onclick=enableDiv()><img src="images/bossbots/raider.png"/><p class="text">Corporate Raider</p></td>
-        <td><button onclick=enableDiv()><img src="images/bossbots/bigcheese.png"/><p class="text">The Big Cheese</p></td>
+        <td><img src="images/bossbots/flunky.png" onclick="enableDiv(this.src)"/><p>Flunky</p></button></td>
+        <td><img src="images/bossbots/pencilpusher.png"onclick="enableDiv(this.src)"/><p class="text">Pencil Pusher</p></td>
+        <td><img src="images/bossbots/yesman.png"onclick="enableDiv(this.src)"/><p class="text">Yesman</p></td>
+        <td><img src="images/bossbots/micromanager.png"onclick="enableDiv(this.src)"/><p class="text">Micromanager</p></td>
+        <td><img src="images/bossbots/downsizer.png"onclick="enableDiv(this.src)"/><p class="text">Downsizer</p></td>
+        <td><img src="images/bossbots/headhunter.png"onclick="enableDiv(this.src)"/><p class="text">Head Hunter</p></td>
+        <td><img src="images/bossbots/raider.png"onclick="enableDiv(this.src)"/><p class="text">Corporate Raider</p></td>
+        <td><img src="images/bossbots/bigcheese.png"onclick="enableDiv(this.src)"/><p class="text">The Big Cheese</p></td>
     </tr>
     <tr>
         <td><b>Lawbots:</b></td>
@@ -75,10 +75,11 @@
 </div>
 
 <script>
-    function enableDiv(){
+    function enableDiv(src){
         var x = document.getElementById("testDiv");
         if(x.style.display === "none"){
             x.style.display = "block";
+            x.src = src;
         } else{
             x.style.display = "none";
         }
