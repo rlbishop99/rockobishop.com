@@ -77,7 +77,7 @@
 <script>
     function enableDiv(imgSrc){
         
-        var img = document.creatElement("img");
+        var img = document.createElement("img");
         var x = document.getElementById("testDiv").appendChild(img);
 
         if(x.style.display === "none"){
