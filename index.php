@@ -79,6 +79,7 @@
 
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
+        img.setAttribute('id', imageId);
         img.src = imgSrc;
 
         if(x.style.display === "none"){
