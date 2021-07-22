@@ -27,7 +27,7 @@
         <td><img src="images/bossbots/micromanager.png"/><p class="text">Micromanager</p></td>
         <td><img src="images/bossbots/downsizer.png"/><p class="text">Downsizer</p></td>
         <td><img src="images/bossbots/headhunter.png"/><p class="text">Head Hunter</p></td>
-        <td><img src="images/bossbots/corporateraider.png"/><p class="text">Corporate Raider</p></td>
+        <td><img src="images/bossbots/raider.png"/><p class="text">Corporate Raider</p></td>
         <td><img src="images/bossbots/bigcheese.png"/><p class="text">The Big Cheese</p></td>
     </tr>
     <tr>
