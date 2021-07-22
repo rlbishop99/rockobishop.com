@@ -78,6 +78,10 @@
     function enableDiv(imgSrc){
 
         var x = document.getElementById("testDiv");
+        var IMG = document.createElement("img");
+        IMG.src = imgSrc;
+
+        document.getElementById('testDiv').appendChild(IMG);
 
         if(x.style.display === "none"){
             x.style.display = "block";
