@@ -26,7 +26,7 @@
 <table class="table_div">
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><button onclick=enableDiv()><img src="images/bossbots/flunky.png"/><p>Flunky</p></button></td>
+        <td><img src="images/bossbots/flunky.png" onclick=enableDiv()/><p>Flunky</p></button></td>
         <td><button onclick=enableDiv()><img src="images/bossbots/pencilpusher.png"/><p class="text">Pencil Pusher</p></td>
         <td><button onclick=enableDiv()><img src="images/bossbots/yesman.png"/><p class="text">Yesman</p></td>
         <td><button onclick=enableDiv()><img src="images/bossbots/micromanager.png"/><p class="text">Micromanager</p></td>
@@ -77,6 +77,7 @@
 <script>
     function enableDiv(){
         var x = document.getElementById("testDiv");
+        var btnImg = $()
         if(x.style.display === "none"){
             x.style.display = "block";
         } else{
