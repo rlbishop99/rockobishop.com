@@ -9,7 +9,6 @@
     .table_div img{
         align: center;
         height: 76px;
-        width: 100%;
     }
 
 </style>    
