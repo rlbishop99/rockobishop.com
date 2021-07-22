@@ -8,6 +8,7 @@
 
     .table_div img{
         align: center;
+        width: 50%;
     }
 
 </style>    
@@ -20,7 +21,7 @@
 <table>
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><img style="display:block;" width="50%" src="images/light.png"/><p>Flunky</p></td>
+        <td><img src="images/light.png"/><p>Flunky</p></td>
         <td><img style="display:block;" width="50%" src="images/light.png"/><p class="text">Pencil Pusher</p></td>
         <td><img style="display:block;" width="50%" src="images/light.png"/><p class="text">Yesman</p></td>
         <td><img style="display:block;" width="50%" src="images/light.png"/><p class="text">Micromanager</p></td>
