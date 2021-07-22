@@ -70,9 +70,7 @@
     </tr>
 </table>
 
-<div style="display: none" id="testDiv">
-    This is a test div.
-</div>
+<div style="display: none" id="testDiv"></div>
 
 <script>
     function enableDiv(imgSrc){
