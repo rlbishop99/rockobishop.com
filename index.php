@@ -80,11 +80,11 @@
         console.log("starting function");
         
         var img = document.createElement("img");
+        img.setAttribute("src", imgSrc);
         var x = document.getElementById("testDiv").appendChild(img);
 
         if(x.style.display === "none"){
             x.style.display = "block";
-            img.src = $imgSrc;
             console.log("showing image");
         } else{
             x.style.display = "none";
