@@ -84,6 +84,7 @@
             x.appendChild(img);
             console.log("showing image");
         } else{
+            x.style.display = "none";
             x.removeChild(x.firstChild);
             console.log("clicked and removed");
         }
