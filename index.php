@@ -77,7 +77,6 @@
 <script>
     function enableDiv(){
         var x = document.getElementById("testDiv");
-        var btnImg = $()
         if(x.style.display === "none"){
             x.style.display = "block";
         } else{
