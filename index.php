@@ -70,15 +70,15 @@
     </tr>
 </table>
 
-<div id="testDiv">
+<div style="display: none" id="testDiv">
     This is a test div.
 </div>
 
 <script>
     function enableDiv(){
-        var x = document.getElementByID("testDiv");
+        var x = document.getElementById("testDiv");
         if(x.style.display === "none"){
-            x.style.display = block;
+            x.style.display = "block";
         } else{
             x.style.display = "none";
         }
