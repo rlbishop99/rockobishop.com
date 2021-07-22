@@ -21,7 +21,7 @@
 <table>
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><img src="images/light.png"/><p>Flunky</p></td>
+        <td><img src="images/flunky.png"/><p>Flunky</p></td>
         <td><img src="images/light.png"/><p class="text">Pencil Pusher</p></td>
         <td><img src="images/light.png"/><p class="text">Yesman</p></td>
         <td><img src="images/light.png"/><p class="text">Micromanager</p></td>
