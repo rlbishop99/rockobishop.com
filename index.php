@@ -59,14 +59,14 @@
     </tr>
     <tr>
         <td><b>Sellbots:</b></td>
-        <td><img src="images/light.png"/><p class="text">Cold Caller</p></td>
-        <td><img src="images/light.png"/><p class="text">Telemarketer</p></td>
-        <td><img src="images/light.png"/><p class="text">Name Dropper</p></td>
-        <td><img src="images/light.png"/><p class="text">Glad Hander</p></td>
-        <td><img src="images/light.png"/><p class="text">Mover & Shaker</p></td>
-        <td><img src="images/light.png"/><p class="text">Two-Face</p></td>
-        <td><img src="images/light.png"/><p class="text">The Mingler</p></td>
-        <td><img src="images/light.png"/><p class="text">Mr. Hollywood</p></td>
+        <td><img src="images/sellbots/coldcaller.png"/><p class="text">Cold Caller</p></td>
+        <td><img src="images/sellbots/telemarketer.png"/><p class="text">Telemarketer</p></td>
+        <td><img src="images/sellbots/namedropper.png"/><p class="text">Name Dropper</p></td>
+        <td><img src="images/sellbots/gladhander.png"/><p class="text">Glad Hander</p></td>
+        <td><img src="images/sellbots/movershaker.png"/><p class="text">Mover & Shaker</p></td>
+        <td><img src="images/sellbots/twoface.png"/><p class="text">Two-Face</p></td>
+        <td><img src="images/sellbots/mingler.png"/><p class="text">The Mingler</p></td>
+        <td><img src="images/sellbots/hollywood.png"/><p class="text">Mr. Hollywood</p></td>
     </tr>
 </table>
 </body>
