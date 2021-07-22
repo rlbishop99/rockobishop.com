@@ -81,10 +81,9 @@
         var img = document.createElement("img");
         img.src = imgSrc;
 
-        document.getElementById('testDiv').appendChild(img);
-
         if(x.style.display === "none"){
             x.style.display = "block";
+            document.getElementById('testDiv').appendChild(img);
             console.log("showing image");
         } else{
             x.style.display = "none";
