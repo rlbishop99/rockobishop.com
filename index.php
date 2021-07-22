@@ -6,6 +6,12 @@
     align: center;
     text-align: center;
 }
+
+    .td img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>    
 <title>Cog HP Calculator</title>
 </head>
