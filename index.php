@@ -79,14 +79,14 @@
 
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
-        img.src = imgSrc;
 
         if(x.style.display === "none"){
             x.style.display = "block";
+            img.src = imgSrc;
             document.getElementById('testDiv').appendChild(img);
             console.log("showing image");
         } else{
-            /*document.getElementById('testDiv').removeChild(img);*/
+            document.getElementById('testDiv').removeChild(img);
             img.src = imgSrc;
         }
     }
