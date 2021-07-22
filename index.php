@@ -83,6 +83,7 @@
         if(x.style.display === "none"){
             x.style.display = "block";
             img.src = $imgSrc;
+            console.log("showing image");
         } else{
             x.style.display = "none";
             var x = document.getElementById("testDiv").removeChild(img);
