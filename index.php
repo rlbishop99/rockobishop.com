@@ -37,14 +37,14 @@
     </tr>
     <tr>
         <td><b>Lawbots:</b></td>
-        <td><img src="images/light.png"/><p class="text">Bottom Feeder</p></td>
-        <td><img src="images/light.png"/><p class="text">Bloodsucker</p></td>
-        <td><img src="images/light.png"/><p class="text">Double Talker</p></td>
-        <td><img src="images/light.png"/><p class="text">Ambulance Chaser</p></td>
-        <td><img src="images/light.png"/><p class="text">Back Stabber</p></td>
-        <td><img src="images/light.png"/><p class="text">Spin Doctor</p></td>
-        <td><img src="images/light.png"/><p class="text">Legal Eagle</p></td>
-        <td><img src="images/light.png"/><p class="text">BigWig</p></td>
+        <td><img src="images/lawbots/bottomfeeder.png"/><p class="text">Bottom Feeder</p></td>
+        <td><img src="images/lawbots/bloodsucker.png"/><p class="text">Bloodsucker</p></td>
+        <td><img src="images/lawbots/doubletalker.png"/><p class="text">Double Talker</p></td>
+        <td><img src="images/lawbots/ambulancechaser.png"/><p class="text">Ambulance Chaser</p></td>
+        <td><img src="images/lawbots/backstabber.png"/><p class="text">Back Stabber</p></td>
+        <td><img src="images/lawbots/spindoctor.png"/><p class="text">Spin Doctor</p></td>
+        <td><img src="images/lawbots/legaleagle.png"/><p class="text">Legal Eagle</p></td>
+        <td><img src="images/lawbots/bigwig.png"/><p class="text">BigWig</p></td>
     </tr>
     <tr>
         <td><b>Cashbots:</b></td>
