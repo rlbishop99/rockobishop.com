@@ -86,8 +86,8 @@
             document.getElementById('testDiv').appendChild(img);
             console.log("showing image");
         } else{
-            document.getElementById('testDiv').removeChild(img);
-            x.style.display = "none";
+            /*document.getElementById('testDiv').removeChild(img);*/
+            img.src = imgSrc;
         }
     }
 </script>
