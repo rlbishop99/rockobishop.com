@@ -6,6 +6,10 @@
         text-align: center;
     }
 
+    .table_div img{
+        align: center;
+    }
+
 </style>    
 <title>Cog HP Calculator</title>
 </head>
