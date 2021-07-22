@@ -77,23 +77,11 @@
 <script>
     function enableDiv(imgSrc){
 
-        console.log("starting function");
-        
-        var img = document.createElement("img");
-        console.log("creating img element to testDiv");
-
-        img.setAttribute("src", imgSrc);
-        console.log("added img src value to testDiv");
-
-        var x = document.getElementById("testDiv").appendChild(img);
-        console.log("appended img with source to div");
-
         if(x.style.display === "none"){
             x.style.display = "block";
             console.log("showing image");
         } else{
             x.style.display = "none";
-            var x = document.getElementById("testDiv").removeChild(img);
         }
     }
 </script>
