@@ -77,6 +77,8 @@
 <script>
     function enableDiv(imgSrc){
 
+        var x = document.getElementById("testDiv");
+
         if(x.style.display === "none"){
             x.style.display = "block";
             console.log("showing image");
