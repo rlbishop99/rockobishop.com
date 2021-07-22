@@ -2,15 +2,11 @@
 <head>
 <style>
 
-    .td img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .td text{
+    .td{
         text-align: center;
+        vertical-align: middle;
     }
+    
 </style>    
 <title>Cog HP Calculator</title>
 </head>
