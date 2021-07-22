@@ -84,7 +84,8 @@
             x.appendChild(img);
             console.log("showing image");
         } else{
-            console.log("click");
+            x.parentNode.removeChild(img);
+            console.log("clicked and removed");
         }
     }
 </script>
