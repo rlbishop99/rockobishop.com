@@ -2,7 +2,7 @@
 <head>
 <style>
     
-    .table_div{
+    .table_div td{
     text-align: center;
 }
 </style>    
