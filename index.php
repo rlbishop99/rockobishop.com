@@ -87,7 +87,7 @@
             console.log("showing image");
         } else{
             x.style.display = "none";
-            document.getElementById('testDiv').removeChild(img);
+            document.getElementById('testDiv').parentNode.removeChild(img);
         }
     }
 </script>
