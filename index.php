@@ -1,1 +1,12 @@
-<?php echo "welcome to costco i luv u, or do I actually?" ?>
+<?php> $light = "light.png";?>
+
+<html>;
+    <head>;
+        <table>;
+            <tr>;
+                <td>;
+                    echo "<ing src='images/$light'>";
+                </td>;
+            </tr>;
+    </body>;
+</html>;
