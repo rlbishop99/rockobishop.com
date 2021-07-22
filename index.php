@@ -84,8 +84,10 @@
             x.appendChild(img);
             console.log("showing image");
         } else{
-            x.style.display = "none";
             x.removeChild(x.firstChild);
+            var img = document.createElement("img");
+            img.src = imgSrc;
+            x.appendChild(img);
             console.log("clicked and removed");
         }
     }
