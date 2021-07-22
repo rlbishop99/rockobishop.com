@@ -84,8 +84,9 @@
 
         img.setAttribute("src", imgSrc);
         console.log("added img src value to testDiv");
-        
+
         var x = document.getElementById("testDiv").appendChild(img);
+        console.log("appended img with source to div");
 
         if(x.style.display === "none"){
             x.style.display = "block";
