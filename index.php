@@ -76,12 +76,12 @@
 
 <script>
     function enableDiv(imgSrc){
-
+        
+        var img = document.creatElement("img");
         var x = document.getElementById("testDiv").appendChild(img);
 
         if(x.style.display === "none"){
             x.style.display = "block";
-            var img = document.creatElement("img");
             img.src = $imgSrc;
         } else{
             x.style.display = "none";
