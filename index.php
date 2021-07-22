@@ -76,6 +76,8 @@
 
 <script>
     function enableDiv(imgSrc){
+
+        console.log("starting function");
         
         var img = document.createElement("img");
         var x = document.getElementById("testDiv").appendChild(img);
