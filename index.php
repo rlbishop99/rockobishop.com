@@ -26,7 +26,7 @@
 <table class="table_div">
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><img src="images/bossbots/flunky.png"/><p>Flunky</p></td>
+        <td><button onclick="enableDiv()"><img src="images/bossbots/flunky.png"/><p>Flunky</p></button></td>
         <td><img src="images/bossbots/pencilpusher.png"/><p class="text">Pencil Pusher</p></td>
         <td><img src="images/bossbots/yesman.png"/><p class="text">Yesman</p></td>
         <td><img src="images/bossbots/micromanager.png"/><p class="text">Micromanager</p></td>
@@ -69,5 +69,21 @@
         <td><img src="images/sellbots/hollywood.png"/><p class="text">Mr. Hollywood</p></td>
     </tr>
 </table>
+
+<div style="display:none" id="testDiv">
+    This is a test div.
+</div>
+
+<script>
+    function enableDiv(){
+        var x = document.getElementByID("testDiv");
+        if(x.style.display === "none"){
+            x.style.display = block;
+        } else{
+            x.style.display = "none";
+        }
+    }
+</script>
+
 </body>
 </html>
