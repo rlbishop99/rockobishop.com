@@ -5,7 +5,7 @@
         <table>
             <tr>
                 <td>
-                    echo "<ing src='images/$light'>";
+                    <?php echo "<ing src='images/$light'>"?>                \
                 </td>
             </tr>
     </body>
