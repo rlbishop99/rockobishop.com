@@ -3,7 +3,8 @@
 <style>
     
     .table_div td{
-    align: center
+    align: center;
+    text-align: center;
 }
 </style>    
 <title>Cog HP Calculator</title>
