@@ -8,9 +8,8 @@
 
     .table_div img{
         align: center;
-        height: 76px
+        height: 76px;
         width: 100%;
-        width: 50%;
     }
 
 </style>    
