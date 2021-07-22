@@ -48,14 +48,14 @@
     </tr>
     <tr>
         <td><b>Cashbots:</b></td>
-        <td><img src="images/light.png"/><p class="text">Short Change</p></td>
-        <td><img src="images/light.png"/><p class="text">Penny Pincher</p></td>
-        <td><img src="images/light.png"/><p class="text">Tightwad</p></td>
-        <td><img src="images/light.png"/><p class="text">Bean Counter</p></td>
-        <td><img src="images/light.png"/><p class="text">Number Cruncher</p></td>
-        <td><img src="images/light.png"/><p class="text">Money Bags</p></td>
-        <td><img src="images/light.png"/><p class="text">Loan Shark</p></td>
-        <td><img src="images/light.png"/><p class="text">Robber Baron</p></td>
+        <td><img src="images/cashbots/shortchange.png"/><p class="text">Short Change</p></td>
+        <td><img src="images/cashbots/pennypincher.png"/><p class="text">Penny Pincher</p></td>
+        <td><img src="images/cashbots/tightwad.png"/><p class="text">Tightwad</p></td>
+        <td><img src="images/cashbots/beancounter.png"/><p class="text">Bean Counter</p></td>
+        <td><img src="images/cashbots/numbercruncher.png"/><p class="text">Number Cruncher</p></td>
+        <td><img src="images/cashbots/moneybags.png"/><p class="text">Money Bags</p></td>
+        <td><img src="images/cashbots/loanshark.png"/><p class="text">Loan Shark</p></td>
+        <td><img src="images/cashbots/robberbaron.png"/><p class="text">Robber Baron</p></td>
     </tr>
     <tr>
         <td><b>Sellbots:</b></td>
