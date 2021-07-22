@@ -2,7 +2,13 @@
 <head>
 <style>
 
+    .table_div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .table_div td{
+        align: center;
         text-align: center;
     }
 
@@ -17,8 +23,7 @@
 
 <body>
 <h1>Cog HP Calculator</h1>
-<div class="table_div">
-<table>
+<table class="table_div">
     <tr>
         <td><b>Bossbots:</b></td>
         <td><img src="images/bossbots/flunky.png"/><p>Flunky</p></td>
