@@ -81,7 +81,7 @@
         if(x.style.display === "none"){
             x.style.display = "block";
             img.src = imgSrc;
-            document.getElementById('testDiv').appendChild(img);
+            x.appendChild(img);
             console.log("showing image");
         } else{
             console.log("click");
