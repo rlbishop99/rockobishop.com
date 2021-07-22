@@ -2,9 +2,8 @@
 <head>
 <style>
 
-    .td{
+    .table_div td{
         text-align: center;
-        vertical-align: bottom;
     }
 
 </style>    
@@ -17,7 +16,7 @@
 <table>
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><img style="display:block;" width="50%" src="images/light.png"/><p class="text">Flunky</p></td>
+        <td><img style="display:block;" width="50%" src="images/light.png"/><p>Flunky</p></td>
         <td><img style="display:block;" width="50%" src="images/light.png"/><p class="text">Pencil Pusher</p></td>
         <td><img style="display:block;" width="50%" src="images/light.png"/><p class="text">Yesman</p></td>
         <td><img style="display:block;" width="50%" src="images/light.png"/><p class="text">Micromanager</p></td>
