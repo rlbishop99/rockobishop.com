@@ -84,7 +84,6 @@
             document.getElementById('testDiv').appendChild(img);
             console.log("showing image");
         } else{
-            document.getElementById('testDiv').removeChild(img);
             img.src = imgSrc;
         }
     }
