@@ -9,6 +9,7 @@
     <tr>
         <td><b>Bossbots:</b></td>
         <td>Flunky</td>
+        <td><img style="display:block;" width="100%" height="100%" src="images/light.png"/></td>
     </tr>
     <tr>
         <td>Lawbots</td>
