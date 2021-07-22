@@ -78,16 +78,17 @@
     function enableDiv(imgSrc){
 
         var x = document.getElementById("testDiv");
-        var IMG = document.createElement("img");
-        IMG.src = imgSrc;
+        var img = document.createElement("img");
+        img.src = imgSrc;
 
-        document.getElementById('testDiv').appendChild(IMG);
+        document.getElementById('testDiv').appendChild(img);
 
         if(x.style.display === "none"){
             x.style.display = "block";
             console.log("showing image");
         } else{
             x.style.display = "none";
+            document.getElementById('testDiv').removeChild(img);
         }
     }
 </script>
