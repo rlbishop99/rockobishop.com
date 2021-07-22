@@ -1,16 +1,15 @@
 <html>
 <head>
 <style>
-    
-    .table_div td{
-    align: center;
-    text-align: center;
-}
 
     .td img{
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .td text{
+        text-align: center;
     }
 </style>    
 <title>Cog HP Calculator</title>
