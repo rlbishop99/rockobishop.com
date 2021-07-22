@@ -7,7 +7,7 @@
 <h1>Cog HP Calculator</h1>
 <table>
     <tr>
-        <td><h2>Bossbots:</h2></td>
+        <td><b>Bossbots:</b></td>
         <td>Flunky</td>
     </tr>
     <tr>
