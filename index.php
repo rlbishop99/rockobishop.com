@@ -26,7 +26,7 @@
 <table class="table_div">
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><button onclick="enableDiv()"><img src="images/bossbots/flunky.png"/><p>Flunky</p></button></td>
+        <td><button onclick=enableDiv()><img src="images/bossbots/flunky.png"/><p>Flunky</p></button></td>
         <td><img src="images/bossbots/pencilpusher.png"/><p class="text">Pencil Pusher</p></td>
         <td><img src="images/bossbots/yesman.png"/><p class="text">Yesman</p></td>
         <td><img src="images/bossbots/micromanager.png"/><p class="text">Micromanager</p></td>
@@ -70,7 +70,7 @@
     </tr>
 </table>
 
-<div style="display:none" id="testDiv">
+<div id="testDiv">
     This is a test div.
 </div>
 
