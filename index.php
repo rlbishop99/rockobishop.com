@@ -75,11 +75,14 @@
 </div>
 
 <script>
-    function enableDiv(src){
+    function enableDiv(imgSrc){
         var x = document.getElementById("testDiv");
+        x.createElement("img");
+
         if(x.style.display === "none"){
             x.style.display = "block";
-            x.src = src;
+            x.src = imgSrc;
+            x.appendChild(x.src);
         } else{
             x.style.display = "none";
         }
