@@ -80,7 +80,11 @@
         console.log("starting function");
         
         var img = document.createElement("img");
+        console.log("creating img element to testDiv");
+
         img.setAttribute("src", imgSrc);
+        console.log("added img src value to testDiv");
+        
         var x = document.getElementById("testDiv").appendChild(img);
 
         if(x.style.display === "none"){
