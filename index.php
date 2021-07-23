@@ -98,10 +98,10 @@
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
         img.setAttribute('height', '425px');
-        img.setAttribute('text-align', 'center');
+        /*img.setAttribute('text-align', 'center');*/
 
         if(x.style.display === "none"){
-            x.style.display = "inline-block";
+            x.style.display = "block";
             img.src = imgSrc;
             x.insertBefore(img, x.firstChild);
             console.log("showing image");
