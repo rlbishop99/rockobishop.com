@@ -70,7 +70,7 @@
     </tr>
 </table>
 
-<div style="display: none;" id="testDiv"></div>
+<div style="display: none; text-align: center;" id="testDiv"></div>
 
 <script>
     function enableDiv(imgSrc){
