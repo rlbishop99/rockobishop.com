@@ -81,7 +81,7 @@
 
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
-        img.setAttribute('height', '150xp');
+        img.setAttribute('height', '450xp');
 
         if(x.style.display === "none"){
             x.style.display = "block";
@@ -91,6 +91,7 @@
         } else{
             x.removeChild(x.firstChild);
             var img = document.createElement("img");
+            img.setAttribute('height', '450xp');
             img.src = imgSrc;
             x.appendChild(img);
             console.log("clicked and removed");
