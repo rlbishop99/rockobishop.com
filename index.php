@@ -73,6 +73,7 @@
 <div style="display: none; text-align: center;" id="testDiv">
         <input type="text">
         <select onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
+            <option selected="Select Cog Level">
             <option>1</option>
             <option>2</option>
             <option>3</option>
