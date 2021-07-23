@@ -70,9 +70,9 @@
     </tr>
 </table>
 
-<div style="display: none; text-align: center;" id="testDiv">
+<div style="display: none; text-align: center; margin: auto;" id="testDiv">
         <select id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
-            <option selected> Select Cog HP</option>
+            <option selected> Select Cog Level</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
