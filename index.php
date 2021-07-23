@@ -48,25 +48,25 @@
     </tr>
     <tr>
         <td><b>Cashbots:</b></td>
-        <td><button onclick=enableDiv()><img src="images/cashbots/shortchange.png"/><p class="text">Short Change</p></td>
-        <td><button onclick=enableDiv()><img src="images/cashbots/pennypincher.png"/><p class="text">Penny Pincher</p></td>
-        <td><button onclick=enableDiv()><img src="images/cashbots/tightwad.png"/><p class="text">Tightwad</p></td>
-        <td><button onclick=enableDiv()><img src="images/cashbots/beancounter.png"/><p class="text">Bean Counter</p></td>
-        <td><button onclick=enableDiv()><img src="images/cashbots/numbercruncher.png"/><p class="text">Number Cruncher</p></td>
-        <td><button onclick=enableDiv()><img src="images/cashbots/moneybags.png"/><p class="text">Money Bags</p></td>
-        <td><button onclick=enableDiv()><img src="images/cashbots/loanshark.png"/><p class="text">Loan Shark</p></td>
-        <td><button onclick=enableDiv()><img src="images/cashbots/robberbaron.png"/><p class="text">Robber Baron</p></td>
+        <td><img src="images/cashbots/shortchange.png"onclick=enableDiv(this.src)/><p class="text">Short Change</p></td>
+        <td><img src="images/cashbots/pennypincher.png"onclick=enableDiv(this.src)/><p class="text">Penny Pincher</p></td>
+        <td><img src="images/cashbots/tightwad.png"onclick=enableDiv(this.src)/><p class="text">Tightwad</p></td>
+        <td><img src="images/cashbots/beancounter.png"onclick=enableDiv(this.src)/><p class="text">Bean Counter</p></td>
+        <td><img src="images/cashbots/numbercruncher.png"onclick=enableDiv(this.src)/><p class="text">Number Cruncher</p></td>
+        <td><img src="images/cashbots/moneybags.png"onclick=enableDiv(this.src)/><p class="text">Money Bags</p></td>
+        <td><img src="images/cashbots/loanshark.png"onclick=enableDiv(this.src)/><p class="text">Loan Shark</p></td>
+        <td><img src="images/cashbots/robberbaron.png"onclick=enableDiv(this.src)/><p class="text">Robber Baron</p></td>
     </tr>
     <tr>
         <td><b>Sellbots:</b></td>
-        <td><button onclick=enableDiv()><img src="images/sellbots/coldcaller.png"/><p class="text">Cold Caller</p></td>
-        <td><button onclick=enableDiv()><img src="images/sellbots/telemarketer.png"/><p class="text">Telemarketer</p></td>
-        <td><button onclick=enableDiv()><img src="images/sellbots/namedropper.png"/><p class="text">Name Dropper</p></td>
-        <td><button onclick=enableDiv()><img src="images/sellbots/gladhander.png"/><p class="text">Glad Hander</p></td>
-        <td><button onclick=enableDiv()><img src="images/sellbots/movershaker.png"/><p class="text">Mover & Shaker</p></td>
-        <td><button onclick=enableDiv()><img src="images/sellbots/twoface.png"/><p class="text">Two-Face</p></td>
-        <td><button onclick=enableDiv()><img src="images/sellbots/mingler.png"/><p class="text">The Mingler</p></td>
-        <td><button onclick=enableDiv()><img src="images/sellbots/hollywood.png"/><p class="text">Mr. Hollywood</p></td>
+        <td><img src="images/sellbots/coldcaller.png"onclick=enableDiv(this.src)/><p class="text">Cold Caller</p></td>
+        <td><img src="images/sellbots/telemarketer.png"onclick=enableDiv(this.src)/><p class="text">Telemarketer</p></td>
+        <td><img src="images/sellbots/namedropper.png"onclick=enableDiv(this.src)/><p class="text">Name Dropper</p></td>
+        <td><img src="images/sellbots/gladhander.png"onclick=enableDiv(this.src)/><p class="text">Glad Hander</p></td>
+        <td><img src="images/sellbots/movershaker.png"onclick=enableDiv(this.src)/><p class="text">Mover & Shaker</p></td>
+        <td><img src="images/sellbots/twoface.png"onclick=enableDiv(this.src)/><p class="text">Two-Face</p></td>
+        <td><img src="images/sellbots/mingler.png"onclick=enableDiv(this.src)/><p class="text">The Mingler</p></td>
+        <td><img src="images/sellbots/hollywood.png"onclick=enableDiv(this.src)/><p class="text">Mr. Hollywood</p></td>
     </tr>
 </table>
 
