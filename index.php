@@ -83,6 +83,7 @@
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
         img.setAttribute('height', '450xp');
+        img.setAttribute("align", 'center');
 
         if(x.style.display === "none"){
             x.style.display = "inline";
@@ -93,6 +94,7 @@
             x.removeChild(x.firstChild);
             var img = document.createElement("img");
             img.setAttribute('height', '450xp');
+            img.setAttribute("align", 'center');
             img.src = imgSrc;
             x.appendChild(img);
             console.log("clicked and removed");
