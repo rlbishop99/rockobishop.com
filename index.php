@@ -116,9 +116,10 @@
 <script>
     function calculateHP(hp){
 
-        maxHP = (hp + 1) * (hp + 2);
-        <?php echo "This cog has " + $maxHP + " maximum HP." ?>
+        $maxHP = (hp + 1) * (hp + 2);
     }
+    
+    <?php echo "This cog has " + $maxHP + " maximum HP." ?>
 </script>
 
 </body>
