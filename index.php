@@ -17,8 +17,11 @@
         height: 76px;
     }
 
-    select{
-
+    .hpValues{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
     }
 
 </style>    
@@ -75,7 +78,7 @@
 </table>
 
 <div style="display: none; text-align: center;" id="testDiv">
-        <select style = "line-height: 50px" id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
+        <select id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
             <option selected> Select Cog Level</option>
             <option>1</option>
             <option>2</option>
