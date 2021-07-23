@@ -26,7 +26,7 @@
 <table class="table_div">
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><img src="images/bossbots/flunky.png" onclick="enableDiv(this.src)"/><p>Flunky</p></button></td>
+        <td onclick="enableDiv(this.src)"><img src="images/bossbots/flunky.png"/><p>Flunky</p></button></td>
         <td><img src="images/bossbots/pencilpusher.png"onclick="enableDiv(this.src)"/><p class="text">Pencil Pusher</p></td>
         <td><img src="images/bossbots/yesman.png"onclick="enableDiv(this.src)"/><p class="text">Yesman</p></td>
         <td><img src="images/bossbots/micromanager.png"onclick="enableDiv(this.src)"/><p class="text">Micromanager</p></td>
