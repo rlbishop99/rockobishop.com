@@ -81,6 +81,7 @@
         img.setAttribute("align", 'center');
 
         if(x.style.display === "none"){
+            x.style.display = "block";
             img.src = imgSrc;
             x.appendChild(img);
             console.log("showing image");
