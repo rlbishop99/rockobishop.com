@@ -17,7 +17,7 @@
         height: 76px;
     }
 
-    .hpValues{
+    .select{
         position: absolute;
         top: 50%;
         width: 100%;
