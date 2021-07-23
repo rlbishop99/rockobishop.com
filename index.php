@@ -85,7 +85,6 @@
 
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
-        img.setAttribute(width)
 
         if(x.style.display === "none"){
             x.style.display = "block";
