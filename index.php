@@ -21,10 +21,6 @@
         align: center;
     }
 
-    .testDiv img{
-        height: 150px;
-    }
-
 </style>    
 <title>Cog HP Calculator</title>
 </head>
@@ -85,6 +81,7 @@
 
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
+        img.setAttribute('height', '150xp');
 
         if(x.style.display === "none"){
             x.style.display = "block";
