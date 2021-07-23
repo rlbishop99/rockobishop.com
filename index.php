@@ -75,7 +75,7 @@
 </table>
 
 <div style="display: none; text-align: center;" id="testDiv">
-        <select style= "display: inline-block; vertical-align: middle;" id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
+        <select id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
             <option selected> Select Cog Level</option>
             <option>1</option>
             <option>2</option>
@@ -101,7 +101,7 @@
         img.setAttribute('text-align', 'center');
 
         if(x.style.display === "none"){
-            x.style.display = "block";
+            x.style.display = "inline-block";
             img.src = imgSrc;
             x.insertBefore(img, x.firstChild);
             console.log("showing image");
