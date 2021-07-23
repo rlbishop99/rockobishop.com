@@ -71,7 +71,6 @@
 </table>
 
 <div style="display: none; text-align: center;" id="testDiv">
-    <div class="dropdown">
         <input type="text">
         <select onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
             <option>1</option>
@@ -87,7 +86,6 @@
             <option>11</option>
             <option>12</option>
         </select>
-    </div>
 </div>
 
 <script>
@@ -99,7 +97,7 @@
         img.setAttribute('text-align', 'center');
 
         if(x.style.display === "none"){
-            x.style.display = "inline-block";
+            x.style.display = "block";
             img.src = imgSrc;
             x.insertBefore(img, x.firstChild);
             console.log("showing image");
