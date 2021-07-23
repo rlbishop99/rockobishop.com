@@ -99,7 +99,7 @@
         img.setAttribute('text-align', 'center');
 
         if(x.style.display === "none"){
-            x.style.display = "block";
+            x.style.display = "inline-block";
             img.src = imgSrc;
             x.insertBefore(img, x.firstChild);
             console.log("showing image");
