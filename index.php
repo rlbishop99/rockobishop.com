@@ -73,7 +73,7 @@
 <div style="display: none; text-align: center;" id="testDiv">
         <input type="text">
         <select onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
-            <option selected>
+            <option value="none" selected disabled hidden> Select Cog HP</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
