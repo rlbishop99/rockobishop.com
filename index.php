@@ -113,5 +113,13 @@
     }
 </script>
 
+<script>
+    function calculateHP(hp){
+
+        maxHP = (hp + 1) * (hp + 2);
+        echo("This cog has " + maxHP + "maximum HP.");
+    }
+</script>
+
 </body>
 </html>
