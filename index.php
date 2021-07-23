@@ -74,7 +74,7 @@
     </tr>
 </table>
 
-<div style="display: none; text-align: center;" id="testDiv">
+<div id="testDiv" style="display: flex; align-items: center; justify-content: center;">
         <select id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
             <option selected> Select Cog Level</option>
             <option>1</option>
