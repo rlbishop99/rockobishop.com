@@ -97,7 +97,7 @@
 
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
-        img.setAttribute('height', '425px');
+        img.setAttribute('height', '350px');
         /*img.setAttribute('text-align', 'center');*/
 
         if(x.style.display === "none"){
@@ -108,7 +108,7 @@
         } else{
             x.removeChild(x.firstChild);
             var img = document.createElement("img");
-            img.setAttribute('height', '425px');
+            img.setAttribute('height', '350px');
             img.setAttribute('text-align', 'center');
             img.src = imgSrc;
             x.insertBefore(img, x.firstChild);
