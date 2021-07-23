@@ -78,7 +78,7 @@
         var x = document.getElementById("testDiv");
         var img = document.createElement("img");
         img.setAttribute('height', '450xp');
-        img.setAttribute("align", 'center');
+        img.setAttribute("margin-left", 'auto');
 
         if(x.style.display === "none"){
             x.style.display = "block";
