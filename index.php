@@ -70,7 +70,7 @@
     </tr>
 </table>
 
-<div style="display: none;" id="testDiv"></div>
+<div style="display: none; text-align:center" id="testDiv"></div>
 
 <script>
     function enableDiv(imgSrc){
@@ -80,7 +80,7 @@
         img.setAttribute('height', '450xp');
 
         if(x.style.display === "none"){
-            x.style.display = "inline-flex";
+            x.style.display = "inline";
             img.src = imgSrc;
             x.appendChild(img);
             console.log("showing image");
