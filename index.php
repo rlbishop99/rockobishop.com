@@ -74,7 +74,7 @@
     </tr>
 </table>
 
-<div id="testDiv" style="display: flex; align-items: center; justify-content: center;">
+<div id="testDiv" style="display: none; align-items: center; justify-content: center;">
         <select id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
             <option selected> Select Cog Level</option>
             <option>1</option>
@@ -100,7 +100,7 @@
         img.setAttribute('height', '350px');
 
         if(x.style.display === "none"){
-            x.style.display = "block";
+            x.style.display = "flex";
             img.src = imgSrc;
             x.insertBefore(img, x.firstChild);
         } else{
