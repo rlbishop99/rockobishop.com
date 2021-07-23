@@ -17,11 +17,6 @@
         height: 76px;
     }
 
-    .testDiv{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 </style>    
 <title>Cog HP Calculator</title>
 </head>
@@ -86,7 +81,6 @@
         img.setAttribute("align", 'center');
 
         if(x.style.display === "none"){
-            x.style.display = "inline";
             img.src = imgSrc;
             x.appendChild(img);
             console.log("showing image");
