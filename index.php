@@ -18,10 +18,7 @@
     }
 
     .select{
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        text-align: center;
+        padding-bottom: 50%;
     }
 
 </style>    
