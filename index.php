@@ -70,7 +70,25 @@
     </tr>
 </table>
 
-<div style="display: none; text-align: center;" id="testDiv"></div>
+<div style="display: none; text-align: center;" id="testDiv">
+    <div class="dropdown">
+        <input type="text">
+        <select onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+        </select>
+    </div>
+</div>
 
 <script>
     function enableDiv(imgSrc){
