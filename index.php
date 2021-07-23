@@ -101,7 +101,7 @@
         if(x.style.display === "none"){
             x.style.display = "block";
             img.src = imgSrc;
-            x[0].appendChild(img);
+            x.insertBefore(img, x.firstChild);
             console.log("showing image");
         } else{
             x.removeChild(x.firstChild);
@@ -109,7 +109,7 @@
             img.setAttribute('height', '425px');
             img.setAttribute('text-align', 'center');
             img.src = imgSrc;
-            x[0].appendChild(img);
+            x.insertBefore(img, x.firstChild);
             console.log("clicked and removed");
         }
     }
