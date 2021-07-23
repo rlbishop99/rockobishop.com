@@ -13,6 +13,7 @@
     }
 
     .table_div img{
+        cursor: pointer;
         align: center;
         height: 76px;
     }
@@ -118,7 +119,7 @@
 
         $maxHP = (hp + 1) * (hp + 2);
     }
-    
+
     <?php echo "This cog has " + $maxHP + " maximum HP." ?>
 </script>
 
