@@ -17,10 +17,6 @@
         height: 76px;
     }
 
-    .testDiv{
-        align: center;
-    }
-
 </style>    
 <title>Cog HP Calculator</title>
 </head>
@@ -74,7 +70,7 @@
     </tr>
 </table>
 
-<div style="display: none" id="testDiv"></div>
+<div style="display: none; align: center" id="testDiv"></div>
 
 <script>
     function enableDiv(imgSrc){
