@@ -75,7 +75,7 @@
 </table>
 
 <div style="display: none; text-align: center;" id="testDiv">
-        <select style= "position: absolute; vertical-align: middle;" id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
+        <select style= "vertical-align: middle;" id="hpValues" onchange="this.previousElementSibling.value=this.value; this.previousElementSibling.focus()">
             <option selected> Select Cog Level</option>
             <option>1</option>
             <option>2</option>
