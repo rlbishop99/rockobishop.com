@@ -2,6 +2,15 @@
 <head>
 <style>
 
+    @font-face {
+        font-family: CogText;
+        src: url('vtRemingtonPortable.tff');
+    }
+
+    p{
+        font-family: CogText;
+    }
+
     .table_div{
         margin-left: auto;
         margin-right: auto;
