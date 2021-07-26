@@ -158,7 +158,7 @@ type="image/png"
                 maxHP = 30;
                 console.log(maxHP);
                 break;
-            case ""5":
+            case "5":
                 maxHP = 42;
                 console.log(maxHP);
                 break;
