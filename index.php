@@ -7,6 +7,10 @@
         src: url('fonts/vtRemingtonPortable.ttf');
     }
 
+    title{
+        text-align: center;
+    }
+
     body {
         font-family: CogText;
     }
