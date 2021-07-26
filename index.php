@@ -4,11 +4,14 @@
 
     @font-face {
         font-family: 'CogText';
-        src: url('vtRemingtonPortable.tff');
+        src: url('fonts/vtRemingtonPortable.tff');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
     }
 
-    .p text{
-        font-family: 'CogText';
+    body {
+        font-family: CogText;
     }
 
     .table_div{
@@ -40,7 +43,7 @@
 <table class="table_div">
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><img src="images/bossbots/flunky.png" onclick="enableDiv(this.src)"/><p>Flunky</p></button></td>
+        <td><img src="images/bossbots/flunky.png" onclick="enableDiv(this.src)"/><p class="text">Flunky</p></button></td>
         <td><img src="images/bossbots/pencilpusher.png"onclick="enableDiv(this.src)"/><p class="text">Pencil Pusher</p></td>
         <td><img src="images/bossbots/yesman.png"onclick="enableDiv(this.src)"/><p class="text">Yesman</p></td>
         <td><img src="images/bossbots/micromanager.png"onclick="enableDiv(this.src)"/><p class="text">Micromanager</p></td>
