@@ -20,6 +20,7 @@ type="image/png"
 
     body {
         font-family: CogText;
+        background-color: #88847f;
     }
 
     .table_div{
