@@ -7,7 +7,7 @@
         src: url('vtRemingtonPortable.tff');
     }
 
-    p{
+    .p text{
         font-family: CogText;
     }
 
