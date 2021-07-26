@@ -142,56 +142,53 @@ type="image/png"
 
         switch(hp)
         {
-            case 1:
+            case "1":
                 maxHP = 6;
                 console.log(maxHP);
                 break;
-            case 2:
+            case "2":
                 maxHP = 12;
                 console.log(maxHP);
                 break;
-            case 3:
+            case "3":
                 maxHP = 20;
                 console.log(maxHP);
                 break;
-            case 4:
+            case "4":
                 maxHP = 30;
                 console.log(maxHP);
                 break;
-            case 5:
+            case ""5":
                 maxHP = 42;
                 console.log(maxHP);
                 break;
-            case 6:
+            case "6":
                 maxHP = 56;
                 console.log(maxHP);
                 break;
-            case 7:
+            case "7":
                 maxHP = 72;
                 console.log(maxHP);
                 break;
-            case 8:
+            case "8":
                 maxHP = 90;
                 console.log(maxHP);
                 break;
-            case 9:
+            case "9":
                 maxHP = 110;
                 console.log(maxHP);
                 break;
-            case 10:
+            case "10":
                 maxHP = 132;
                 console.log(maxHP);
                 break;
-            case 11:
+            case "11":
                 maxHP = 156;
                 console.log(maxHP);
                 break;
-            case 12:
+            case "12":
                 maxHP = 200;
                 console.log(maxHP);
-                break;
-            default:
-                console.log(whoops);
                 break;
         }
     }
