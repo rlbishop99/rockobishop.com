@@ -3,12 +3,12 @@
 <style>
 
     @font-face {
-        font-family: CogText;
+        font-family: 'CogText';
         src: url('vtRemingtonPortable.tff');
     }
 
     .p text{
-        font-family: CogText;
+        font-family: 'CogText';
     }
 
     .table_div{
