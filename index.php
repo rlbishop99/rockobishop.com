@@ -191,7 +191,9 @@ type="image/png"
                 console.log(maxHP);
                 break;
         }
-        $("testDiv").append("<p> This level " + hp + " cog has " + maxHP + " maximum hitpoints.<p>");
+
+        var x = document.getElementById("testDiv");
+        x.append("<p> This level " + hp + " cog has " + maxHP + " maximum hitpoints.<p>");
     }
 </script>
 
