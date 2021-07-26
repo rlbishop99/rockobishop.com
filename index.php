@@ -190,6 +190,9 @@ type="image/png"
                 maxHP = 200;
                 console.log(maxHP);
                 break;
+            default:
+                console.log(whoops);
+                break;
         }
     }
 </script>
