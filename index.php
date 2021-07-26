@@ -1,5 +1,12 @@
 <html>
 <head>
+
+<link 
+rel="icon"
+href ="images/cog.png"
+type="image/png"
+>
+
 <style>
 
     @font-face {
