@@ -4,7 +4,7 @@
 
     @font-face {
         font-family: 'CogText';
-        src: url('fonts/vtRemingtonPortable.tff');
+        src: url('fonts/vtRemingtonPortable.ttf');
         font-weight: 400;
         font-style: normal;
         font-display: swap;
