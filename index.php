@@ -145,43 +145,53 @@ type="image/png"
             case 1:
                 maxHP = 6;
                 console.log(maxHP);
+                break;
             case 2:
                 maxHP = 12;
                 console.log(maxHP);
+                break;
             case 3:
                 maxHP = 20;
                 console.log(maxHP);
+                break;
             case 4:
                 maxHP = 30;
                 console.log(maxHP);
+                break;
             case 5:
                 maxHP = 42;
                 console.log(maxHP);
+                break;
             case 6:
                 maxHP = 56;
                 console.log(maxHP);
+                break;
             case 7:
                 maxHP = 72;
                 console.log(maxHP);
+                break;
             case 8:
                 maxHP = 90;
                 console.log(maxHP);
+                break;
             case 9:
                 maxHP = 110;
                 console.log(maxHP);
+                break;
             case 10:
                 maxHP = 132;
                 console.log(maxHP);
+                break;
             case 11:
                 maxHP = 156;
                 console.log(maxHP);
+                break;
             case 12:
                 maxHP = 200;
                 console.log(maxHP);
+                break;
         }
     }
-
-    <?php echo "This cog has " + $maxHP + " maximum HP." ?>
 </script>
 
 </body>
