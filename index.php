@@ -20,7 +20,7 @@ type="image/png"
 
     body {
         font-family: CogText;
-        background-color: #88847f;
+        background-color: #a8b5b8;
     }
 
     .table_div{
@@ -138,7 +138,17 @@ type="image/png"
 <script>
     function calculateHP(hp){
 
-        $maxHP = (hp + 1) * (hp + 2);
+        var maxHP = 0;
+
+        if(hp != 12)
+        {
+            maxHP = (hp + 1) * (hp + 2);
+            console.log(maxHP)
+        }
+        else{
+            maxHP = 200;
+            console.log(maxHP);
+        }
     }
 
     <?php echo "This cog has " + $maxHP + " maximum HP." ?>
