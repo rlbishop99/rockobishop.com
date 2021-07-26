@@ -140,14 +140,44 @@ type="image/png"
 
         var maxHP = 0;
 
-        if(hp != 12)
+        switch(hp)
         {
-            maxHP = (hp + 1) * (hp + 2);
-            console.log(maxHP)
-        }
-        else{
-            maxHP = 200;
-            console.log(maxHP);
+            case 1:
+                maxHP = 6;
+                console.log(maxHP);
+            case 2:
+                maxHP = 12;
+                console.log(maxHP);
+            case 3:
+                maxHP = 20;
+                console.log(maxHP);
+            case 4:
+                maxHP = 30;
+                console.log(maxHP);
+            case 5:
+                maxHP = 42;
+                console.log(maxHP);
+            case 6:
+                maxHP = 56;
+                console.log(maxHP);
+            case 7:
+                maxHP = 72;
+                console.log(maxHP);
+            case 8:
+                maxHP = 90;
+                console.log(maxHP);
+            case 9:
+                maxHP = 110;
+                console.log(maxHP);
+            case 10:
+                maxHP = 132;
+                console.log(maxHP);
+            case 11:
+                maxHP = 156;
+                console.log(maxHP);
+            case 12:
+                maxHP = 200;
+                console.log(maxHP);
         }
     }
 
