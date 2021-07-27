@@ -136,11 +136,13 @@ type="image/png"
 </script>
 
 <script>
-    function calculateHP(parseInt(hp)){
+    function calculateHP(hp){
+
+        intHP = parseInt(hp);
 
         var maxHP = 0;
 
-        maxHP = (hp + 1) * (hp + 2);
+        maxHP = (intHP + 1) * (intHP + 2);
 
         /*switch(hp)
         {
