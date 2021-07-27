@@ -194,11 +194,17 @@ type="image/png"
 
         var x = document.getElementById("testDiv");
 
-        x.append("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
+        let textNode = document.createTextNode("This level " + hp + " cog has " + maxHP + " maximum hitpoints.")
+
         
-        if(x[2] != null){
-            x.removeChild(x[2]);
-            x.append("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
+        if(x.textNode === null)
+        {
+            x.appendChild(textNode);
+        }
+        else
+        {
+            x.removeChild(x.textNode);
+            x.appendChild(textNode);
         }
     }
 </script>
