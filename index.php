@@ -163,14 +163,14 @@ type="image/png"
         levelText.append(text);
 
 
-        if(x.childElementCount === 1)
+        if(x.childElementCount === 2)
         {
             x.appendChild(levelText);
             console.log(x.childElementCount)
         }
         else
         {
-            x.removeChild(x.childNodes[3]);
+            x.removeChild(x.childNodes[4]);
             x.appendChild(levelText);
             console.log("created and deleted text");
         }
