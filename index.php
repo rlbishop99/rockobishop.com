@@ -199,7 +199,7 @@ type="image/png"
         console.log("created and deleted text");
 
         
-        if(x[2].nodeType != Node.TEXT_NODE)
+        if(x[2].nodeType === undefined)
         {
             x.appendChild(textNode);
         }
