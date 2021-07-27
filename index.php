@@ -198,7 +198,7 @@ type="image/png"
 
         console.log(x.innerHTML.length);
         
-        if(x.length === 2)
+        if(x.length === 834)
         {
             x.appendChild(textNode);
         }
