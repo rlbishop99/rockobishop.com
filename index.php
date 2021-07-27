@@ -153,8 +153,8 @@ type="image/png"
 
         var x = document.getElementById("testDiv");
         var levelText = document.createElement("P");
-        levelText.setAttribute('style', 'margin-left: 50px');
-        level.Text.setAttribute('flex-direction', 'column');
+        levelText.setAttribute('style', 'margin-top: 25px');
+        levelText.setAttribute('flex-direction', 'column');
 
         var text = document.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
 
