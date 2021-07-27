@@ -163,7 +163,7 @@ type="image/png"
         levelText.append(text);
 
 
-        if(x.childElementCount === 2)
+        if(x.childElementCount === 1)
         {
             x.appendChild(levelText);
             console.log(x.childElementCount)
