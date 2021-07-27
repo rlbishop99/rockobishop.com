@@ -195,6 +195,8 @@ type="image/png"
         var x = document.getElementById("testDiv");
 
         let textNode = document.createTextNode("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
+
+        console.log(x.length);
         
         if(x.length === 2)
         {
