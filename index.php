@@ -111,13 +111,13 @@ type="image/png"
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
-</select>
+        </select>
 </div>
 
 <script>
     function enableDiv(imgSrc){
 
-        var x = document.getElementById("innerTestDiv");
+        var x = document.getElementById("testDiv");
         var img = document.createElement("img");
         img.setAttribute('height', '350px');
 
@@ -151,7 +151,7 @@ type="image/png"
             maxHP = (level + 1) * (level + 2);
         }
 
-        var x = document.getElementById("innerTestDiv");
+        var x = document.getElementById("testDiv");
         var levelText = document.createElement("P");
         levelText.setAttribute('id', 'levelText');
         levelText.setAttribute('style', 'margin-top: 25px');
