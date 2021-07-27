@@ -194,11 +194,9 @@ type="image/png"
 
         var x = document.getElementById("testDiv");
 
-        if(x[2] === null)
-        {
-            x.append("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
-        }
-        else{
+        x.append("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
+        
+        if(x[2] != null)
             x.removeChild(x[2]);
             x.append("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
         }
