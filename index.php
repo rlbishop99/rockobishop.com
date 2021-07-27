@@ -196,7 +196,7 @@ type="image/png"
 
         x.append("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
         
-        if(x[2] != null)
+        if(x[2] != null){
             x.removeChild(x[2]);
             x.append("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
         }
