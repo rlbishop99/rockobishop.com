@@ -141,7 +141,15 @@ type="image/png"
         level = parseInt(level);
 
         var maxHP = 0;
-        maxHP = (level + 1) * (level + 2);
+
+        if(level === 12)
+        {
+            maxHP = 200;
+        }
+        else
+        {
+            maxHP = (level + 1) * (level + 2);
+        }
 
         var x = document.getElementById("testDiv");
         var levelText = document.createElement("P");
