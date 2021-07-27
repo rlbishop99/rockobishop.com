@@ -136,69 +136,18 @@ type="image/png"
 </script>
 
 <script>
-    function calculateHP(hp){
+    function calculateHP(level){
 
-        intHP = parseInt(hp);
+        level = parseInt(level);
 
         var maxHP = 0;
-
-        maxHP = (intHP + 1) * (intHP + 2);
-
-        /*switch(hp)
-        {
-            case "1":
-                maxHP = 6;
-                console.log(maxHP);
-                break;
-            case "2":
-                maxHP = 12;
-                console.log(maxHP);
-                break;
-            case "3":
-                maxHP = 20;
-                console.log(maxHP);
-                break;
-            case "4":
-                maxHP = 30;
-                console.log(maxHP);
-                break;
-            case "5":
-                maxHP = 42;
-                console.log(maxHP);
-                break;
-            case "6":
-                maxHP = 56;
-                console.log(maxHP);
-                break;
-            case "7":
-                maxHP = 72;
-                console.log(maxHP);
-                break;
-            case "8":
-                maxHP = 90;
-                console.log(maxHP);
-                break;
-            case "9":
-                maxHP = 110;
-                console.log(maxHP);
-                break;
-            case "10":
-                maxHP = 132;
-                console.log(maxHP);
-                break;
-            case "11":
-                maxHP = 156;
-                console.log(maxHP);
-                break;
-            case "12":
-                maxHP = 200;
-                console.log(maxHP);
-                break;
-        }*/
+        maxHP = (level + 1) * (level + 2);
 
         var x = document.getElementById("testDiv");
 
         let textNode = document.createTextNode("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
+
+        console.log(x.childElementCount);
 
 
         if(x.childElementCount === 2)
