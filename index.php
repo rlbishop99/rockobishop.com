@@ -43,7 +43,7 @@ type="image/png"
         padding-bottom: 25em;
     }
 
-    .p{
+    .levelText{
         flex-direction: column;
     }
 
@@ -157,8 +157,8 @@ type="image/png"
 
         var x = document.getElementById("testDiv");
         var levelText = document.createElement("P");
+        levelText.setAttribute('id', 'levelText');
         levelText.setAttribute('style', 'margin-top: 25px');
-        levelText.setAttribute('flex-direction', 'column');
 
         var text = document.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
 
