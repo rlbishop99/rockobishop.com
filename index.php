@@ -196,9 +196,17 @@ type="image/png"
 
         let textNode = document.createTextNode("This level " + hp + " cog has " + maxHP + " maximum hitpoints.");
 
-        x.appendChild(textNode);
-        //textNode.parentNode.removeChild(textNode);
-        console.log("created and deleted text");
+
+        if(x.childElementCount === 2)
+        {
+            x.appendChild(textNode);
+        }
+        else
+        {
+            textNode.parentNode.removeChild(textNode);
+            console.log("created and deleted text");
+        }
+
         
     }
 </script>
