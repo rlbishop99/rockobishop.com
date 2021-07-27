@@ -43,6 +43,10 @@ type="image/png"
         padding-bottom: 25em;
     }
 
+    .p{
+        flex-direction: column;
+    }
+
 </style>    
 <title>Cog HP Calculator</title>
 </head>
