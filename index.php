@@ -158,7 +158,7 @@ type="image/png"
         }
         else
         {
-            x.removeChild(list.childNodes[2]);
+            x.removeChild(x.childNodes[2]);
             console.log("created and deleted text");
         }
 
