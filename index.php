@@ -43,10 +43,6 @@ type="image/png"
         padding-bottom: 25em;
     }
 
-    .levelText{
-        flex-direction: column;
-    }
-
 </style>    
 <title>Cog HP Calculator</title>
 </head>
@@ -101,6 +97,7 @@ type="image/png"
 </table>
 
 <div id="testDiv" style="display: none; align-items: center; justify-content: center; margin-top: 50px;">
+    <div id="innerTestDiv" style="flex-direction: column;">
         <select id="hpValues" onclick="calculateHP(value); this.previousElementSibling.value=this.value; this.previousElementSibling.focus()" style="margin-left: 200px;">
             <option selected> Select Cog Level</option>
             <option value="1">1</option>
@@ -116,12 +113,13 @@ type="image/png"
             <option value="11">11</option>
             <option value="12">12</option>
         </select>
+    </div>
 </div>
 
 <script>
     function enableDiv(imgSrc){
 
-        var x = document.getElementById("testDiv");
+        var x = document.getElementById("innerTestDiv");
         var img = document.createElement("img");
         img.setAttribute('height', '350px');
 
@@ -155,7 +153,7 @@ type="image/png"
             maxHP = (level + 1) * (level + 2);
         }
 
-        var x = document.getElementById("testDiv");
+        var x = document.getElementById("innerTestDiv");
         var levelText = document.createElement("P");
         levelText.setAttribute('id', 'levelText');
         levelText.setAttribute('style', 'margin-top: 25px');
