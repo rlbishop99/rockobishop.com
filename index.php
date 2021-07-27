@@ -145,6 +145,8 @@ type="image/png"
 
         var x = document.getElementById("testDiv");
         var levelText = document.createElement("P");
+        leveText.setAttribute("margin-left: 200px");
+        
         var text = document.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
 
         levelText.append(text);
