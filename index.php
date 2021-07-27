@@ -170,7 +170,7 @@ type="image/png"
         }
         else
         {
-            x.removeChild(x.childNodes[4]);
+            x.removeChild(x.childNodes[2]);
             x.appendChild(levelText);
             console.log("created and deleted text");
         }
