@@ -144,7 +144,7 @@ type="image/png"
         maxHP = (level + 1) * (level + 2);
 
         var x = document.getElementById("testDiv");
-        var levelText = document.createElement("p");
+        var levelText = document.createElement("P");
         levelText.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
 
         console.log(x.childElementCount);
