@@ -144,19 +144,19 @@ type="image/png"
         maxHP = (level + 1) * (level + 2);
 
         var x = document.getElementById("testDiv");
-
-        let textNode = document.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
+        var levelText = document.createElement("p");
+        levelText.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
 
         console.log(x.childElementCount);
 
 
         if(x.childElementCount === 2)
         {
-            x.appendChild(textNode);
+            x.appendChild(levelText);
         }
         else
         {
-            textNode.parentNode.removeChild(textNode);
+            levelText.parentNode.removeChild(levelText);
             console.log("created and deleted text");
         }
 
