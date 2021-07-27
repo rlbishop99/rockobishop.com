@@ -145,7 +145,9 @@ type="image/png"
 
         var x = document.getElementById("testDiv");
         var levelText = document.createElement("P");
-        levelText.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
+        var text = document.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
+
+        levelText.append(text);
 
         console.log(x.childElementCount);
 
