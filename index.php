@@ -29,13 +29,13 @@ type="image/png"
     }
 
     .table_div td{
-        align: center;
+        align-self: center;
         text-align: center;
     }
 
     .table_div img{
         cursor: pointer;
-        align: center;
+        align-self: center;
         height: 76px;
     }
 
