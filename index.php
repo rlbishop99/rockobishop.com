@@ -136,11 +136,13 @@ type="image/png"
 </script>
 
 <script>
-    function calculateHP(hp){
+    function calculateHP(parseInt(hp)){
 
         var maxHP = 0;
 
-        switch(hp)
+        maxHP = (hp + 1) * (hp + 2);
+
+        /*switch(hp)
         {
             case "1":
                 maxHP = 6;
@@ -190,7 +192,7 @@ type="image/png"
                 maxHP = 200;
                 console.log(maxHP);
                 break;
-        }
+        }*/
 
         var x = document.getElementById("testDiv");
 
