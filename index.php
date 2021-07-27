@@ -158,7 +158,7 @@ type="image/png"
         }
         else
         {
-            levelText.parentNode.removeChild(levelText);
+            x.removeChild(x.levelText);
             console.log("created and deleted text");
         }
 
