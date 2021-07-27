@@ -97,7 +97,6 @@ type="image/png"
 </table>
 
 <div id="testDiv" style="display: none; align-items: center; justify-content: center; margin-top: 50px;">
-    <div id="innerTestDiv" style="flex-direction: column;">
         <select id="hpValues" onclick="calculateHP(value); this.previousElementSibling.value=this.value; this.previousElementSibling.focus()" style="margin-left: 200px;">
             <option selected> Select Cog Level</option>
             <option value="1">1</option>
@@ -112,8 +111,7 @@ type="image/png"
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
-        </select>
-    </div>
+</select>
 </div>
 
 <script>
