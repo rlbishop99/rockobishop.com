@@ -184,7 +184,7 @@ body {
     <h2>Skills and Tools</h2>
     <h5>General Knowledge:</h5>
     <ul>
-      <li>Computer Hardware/Building</li>
+      <li>Computer Hardware Repair/Building</li>
       <li>Unity</li>
       <li>Aesprite</li>
       <li>Adobe Premiere Pro</li>
@@ -211,12 +211,13 @@ body {
       <li>HTML</li>
       <li>CSS</li>
       <li>PHP</li>
+      <li>JavaScript</li>
       <li>SSH</li>
     </ul>
     <p>I'm quite new to Web Development. This website has been my first real project since I've begun learning. I primarily format my websites using
-       HTML and CSS. I'm trying to learn how to best integrate PHP functionality into my websites, but it is an ongoing process. I host my websites on
+       HTML and CSS. I'm trying to learn how to best integrate PHP and JavaScript functionality into my websites, but it is an ongoing process. I host my websites on
        a Raspberry Pi, so I use SSH and Git to make sure my remote repositories are in sync with the local repositories on the Pi. 
-       Controlling my Pi from anywhere in the world means I can do Web Development anywhere, which is amazing.
+       Controlling my Pi from anywhere in the world means I can do Web Development when I'm not at my desk, which is amazing.
     </p>
     <br>
   </div>
