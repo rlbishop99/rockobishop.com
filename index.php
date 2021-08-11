@@ -52,8 +52,8 @@ type="image/png"
 <table class="table_div">
     <tr>
         <td><b>Bossbots:</b></td>
-        <td><img src="images/bossbots/flunky.png" onclick="enableDiv(this.src)"/><p class="text">Flunky</p></button></td>
-        <td><img src="images/bossbots/pencilpusher.png"onclick="enableDiv(this.src)"/><p class="text">Pencil Pusher</p></td>
+        <td><img src="images/bossbots/flunky.png" onclick="enableDiv(this.src), cogName('Flunky')"/><p class="text">Flunky</p></button></td>
+        <td><img src="images/bossbots/pencilpusher.png"onclick="enableDiv(this.src), cogName('Pencil Pusher')"/><p class="text">Pencil Pusher</p></td>
         <td><img src="images/bossbots/yesman.png"onclick="enableDiv(this.src)"/><p class="text">Yesman</p></td>
         <td><img src="images/bossbots/micromanager.png"onclick="enableDiv(this.src)"/><p class="text">Micromanager</p></td>
         <td><img src="images/bossbots/downsizer.png"onclick="enableDiv(this.src)"/><p class="text">Downsizer</p></td>
@@ -98,7 +98,7 @@ type="image/png"
 
 <div id="testDiv" style="display: none; align-items: center; justify-content: center; margin-top: 50px;">
     <div id="innerTestDiv" style="flex-direction: column; margin-left: 200px;">
-        <select id="hpValues" onclick="calculateHP(value); /*this.previousElementSibling.value=this.value; this.previousElementSibling.focus()*/">
+        <select id="hpValues" onclick="calculateHP(value); ">
             <option selected> Select Cog Level</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -138,6 +138,13 @@ type="image/png"
 </script>
 
 <script>
+
+    let cogName = "";
+
+    function cogName(cogName){
+        cogName = cogName;   
+    }
+
     function calculateHP(level){
 
         level = parseInt(level);
@@ -158,7 +165,7 @@ type="image/png"
         levelText.setAttribute('id', 'levelText');
         levelText.setAttribute('style', 'margin-top: 25px');
 
-        var text = document.createTextNode("This level " + level + " cog has " + maxHP + " maximum hitpoints.");
+        var text = document.createTextNode("A level " + level + cogName + " has " + maxHP + " maximum hitpoints.");
 
         levelText.append(text);
 
@@ -172,10 +179,14 @@ type="image/png"
         {
             x.removeChild(x.childNodes[2]);
             x.appendChild(levelText);
-            console.log("created and deleted text");
         }
 
         
+    }
+
+
+    function cogName(cogName){
+
     }
 </script>
 
