@@ -87,6 +87,7 @@ body {
   color: #c8c8c8;
   padding: 20px;
   width: 100%;
+  min-height:75vh;
 }
 
 /* Footer */
@@ -95,8 +96,7 @@ body {
   background: #ddd;
   background-color: #333;
   overflow: hidden;
-  position: fixed;
-  bottom:0;
+  align-self: flex-end;
 }
 
 .footer a {
