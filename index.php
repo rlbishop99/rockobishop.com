@@ -157,7 +157,7 @@ body {
 
 <div class="navbar">
   <a href="">Rocko Bishop | Showcase</a>
-  <a href="#" class="right">More</a>
+  <a href="/heron.php" class="right">More</a>
   <a href="#" class="right">Projects</a>
 </div>
 
