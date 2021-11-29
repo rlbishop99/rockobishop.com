@@ -1,5 +1,18 @@
 <!DOCTYPE html>
+
+
+
 <html>
+<style>
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+</style>
+
+
     <title>Projects</title>
     <body style="background-color:#292929">
         <h1>Check out some of my completed projects below:</h1>
