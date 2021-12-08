@@ -2,6 +2,12 @@
     .row {   
       flex-direction: column;
     }
+
+    .projects{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:12px;
+        padding: 0 8px;
+    }
   }
   
   .container{
@@ -49,13 +55,4 @@
     align-items: flex-end;
     z-index: 2;
     color: #333 !important;
-  }
-
-  @media screen and (max-width:800px)
-  {
-      .projects{
-          grid-template-columns: repeat(1,1fr);
-          grid-gap:12px;
-          padding: 0 8px;
-      }
   }
