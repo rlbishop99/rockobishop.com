@@ -1,64 +1,11 @@
 <!DOCTYPE html>
-
-
-
-<html>
-<style>
-
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-.container{
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.projects{
-  display: grid;
-  margin-top: 15px;
-  grid-template-columns: repeat(2,1fr);
-  grid-gap: 15px 15px;
-}
-
-.wrapper{
-  position: relative;
-  background: #fff;
-  height: 140px;
-  overflow: hidden;
-  border-radius: 7px;
-}
-
-.link-background{
-  background-repeat: repeat, no-repeat;
-  background-position: 50%;
-  background-size: auto 100%;
-  height: 140px;
-  width: 100%;
-  position: static;
-}
-
-.link-title{
-  background: #fff;
-  padding: 14px 20px;
-  font-weight: 700;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  white-space:nowrap;
-  font-size: 22px;
-  border-radius: 5px;
-  display: flex;
-  align-items: flex-end;
-  z-index: 2;
-  color: #333 !important;
-}
-</style>
-
+<html lang="en">
+<head>
+  <title>Rocko Bishop | Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/projectstyle.css">
+</head>
 
     <title>Projects</title>
     <body style="background-color:#292929;">
@@ -66,10 +13,12 @@
         <h1 style="color:#c8c8c8; text-align: center;">Check out some of my completed projects below:</h1>
         <div class="projects">
           <a href="/Projects/heron.html">
+            <div class="wrapper">
             <div class="link-background" style="background-image: url('/images/code.png');"></div>
             <div class="link-title">
               Heron Formula
             </div>
+          </div>
           </a>
           <a href="/Projects/eggscape.html">
             <div class="wrapper">
