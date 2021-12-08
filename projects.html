@@ -9,12 +9,27 @@
   .row {   
     flex-direction: column;
   }
+}
 
-  .a{
+a{
     display:block;
     height:16px;
     width:25px;
-  }
+}
+
+.projects{
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 15px 15px;
+}
+
+.link-background{
+  background-position: 50%;
+  background-size: auto 100%;
+  height:160px;
+  width: 100%;
+  position: static;
 }
 </style>
 
@@ -22,9 +37,19 @@
     <title>Projects</title>
     <body style="background-color:#292929; text-align:center;">
         <h1 style="color:#c8c8c8;">Check out some of my completed projects below:</h1>
-        <div>
-          <a href="/Projects/heron.html" style="padding: 0, 50, 0, 0; background-image:url('/images/code.png')">Heron Formula: Triangle</a>
-          <a href="/Projects/eggscape.html" style="background-image: url('/images/egg.png');">The EGG Game</a>
+        <div class="projects">
+          <a href="/Projects/heron.html">
+            <div class="link-background" style="background-image: url('/images/code.png');"></div>
+            <div class="link-title">
+              Heron Formula
+            </div>
+          </a>
+          <a href="/Projects/eggscape.html">
+            <div class="link-background" style="background-image: url('/images/egg.png');"></div>
+            <div class="link-title">
+              The Great Eggscape
+            </div>
+          </a>
         </div>
     </body>
 </html>
