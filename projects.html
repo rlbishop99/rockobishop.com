@@ -24,6 +24,14 @@
   grid-gap: 15px 15px;
 }
 
+.wrapper{
+  position: relative;
+  background: #fff;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
 .link-background{
   background-repeat: repeat, no-repeat;
   background-position: 50%;
@@ -55,7 +63,7 @@
     <title>Projects</title>
     <body style="background-color:#292929;">
       <div class="container">
-        <h1 style="color:#c8c8c8;">Check out some of my completed projects below:</h1>
+        <h1 style="color:#c8c8c8; text-align: center;">Check out some of my completed projects below:</h1>
         <div class="projects">
           <a href="/Projects/heron.html">
             <div class="link-background" style="background-image: url('/images/code.png');"></div>
@@ -64,10 +72,12 @@
             </div>
           </a>
           <a href="/Projects/eggscape.html">
+            <div class="wrapper">
             <div class="link-background" style="background-image: url('/images/egg.png');"></div>
-              <div class="link-title">
-                The Great Eggscape
-              </div>
+            <div class="link-title">
+              The Great Eggscape
+            </div>
+          </div>
           </a>
         </div>
       </div>
