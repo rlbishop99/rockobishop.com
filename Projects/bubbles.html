@@ -1,0 +1,32 @@
+</html>
+<body>
+    <img src="url('/images/clickablebubble.png')" class="bubble">
+    <script>
+            const bubble = document.querySelector('.bubble');
+
+            const center = {
+                x: parseFloat(getComputedStyle(bubble).left),
+                y: parseFloat(getComputedStyle(bubble).top)
+            }
+            
+            let new_x = 0.0;
+            let new_y = 0.0;
+            let motion_sway = 0.01;
+            let animated_value = 0.0;
+
+            function startAnimation() {
+                //motion modifications
+                new_y = center.y - animated_value;
+                new_x = center.x + (60.0 * Math.sin(motion_sway * animated_value));
+
+                bubble.style.top = `${new_y}px`;
+                bubble.style.top = `${new_x}px`;
+
+                animated_value++;
+                requestAnimationFrame(startAnimation);
+            }
+
+            startAnimation();
+    </script>
+</body>
+</html>
