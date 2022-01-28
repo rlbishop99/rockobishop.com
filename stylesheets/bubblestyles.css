@@ -1,4 +1,6 @@
 body
 {
     background-color: darkslategray;
+    cursor: url('/images/needle.png');
 }
+
