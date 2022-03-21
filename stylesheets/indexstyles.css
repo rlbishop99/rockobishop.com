@@ -53,18 +53,6 @@ body {
   flex-wrap: wrap;
 }
 
-/*This is the navbar on the left side that will remain stickied as I scroll through the site*/
-.left-side-sticky{
-  display: flex;
-  flex: 15%;
-  background-color: #171726;
-  color: #c8c8c8;
-  padding: 20px;
-  width: 100%;
-  position: sticky;
-  height: 100%;
-}
-
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
@@ -110,12 +98,8 @@ body {
 }
 
 /* Right-aligned link */
-.footer a.right {
-  color: #c8c8c8;
-}
-
-.photo{
-  background-size: 100% 100%;
+.footer a.homelink {
+  color: #bd00ff;
 }
 
 .embeddedPhoto{
