@@ -98,13 +98,13 @@ body {
 
 .about-me {
   color: white;
-  background-color: #2d2d;
+  background-color: #2d2d2d;
   padding-left: 50px;
 }
 
 .skills {
   color: white;
-  background-color: darkslategray;
+  background-color: #343438;
   padding-left: 50px;
 }
 
@@ -132,7 +132,7 @@ body {
   margin-right: auto;
 }
 
-p {
+h2, p{
   margin: 0;
 }
 
