@@ -106,9 +106,16 @@ body {
   height: 1000px;
 }
 
+.about-me {
+  color: white;
+  background-color: #2d2d2d;
+}
+
 .sidebar {
   width: 15%;
   height: 100vh;
+  text-align: center;
+  color: #c8c8c8;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -116,8 +123,9 @@ body {
 }
 
 .sidebarPhoto{
-  max-width: 80%;
-  padding: 10px;
+  max-width: 65%;
+  position: relative;
+  top: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
