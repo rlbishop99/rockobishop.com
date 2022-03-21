@@ -126,6 +126,24 @@ body {
   object-fit: contain;
 }
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main{
+  width: 85%;
+  height: 100%;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row {   
