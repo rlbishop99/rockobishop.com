@@ -111,6 +111,8 @@ body {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
+  position: absolute;
+  bottom: 0;
 }
 
 /* Right-aligned link */
@@ -142,6 +144,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background-color: #171726;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
