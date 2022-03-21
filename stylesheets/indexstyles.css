@@ -99,7 +99,13 @@ body {
 .about-me {
   color: white;
   background-color: #2d2d;
-  
+  padding-left: 50px;
+}
+
+.skills {
+  color: white;
+  background-color: darkslategray;
+  padding-left: 50px;
 }
 
 .sidebar {
