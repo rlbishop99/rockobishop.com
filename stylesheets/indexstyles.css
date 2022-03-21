@@ -45,8 +45,6 @@ body {
   color: black;
 }
 
-
-
 /* Column container */
 .row {  
   display: flex;
@@ -58,15 +56,6 @@ body {
 .side {
   flex: 30%;
   background-color: #2d2d2d;
-  color: #c8c8c8;
-  padding: 20px;
-  width: 100%;
-}
-
-/* Main column */
-.main {   
-  flex: 70%;
-  background-color: #292929;
   color: #c8c8c8;
   padding: 20px;
   width: 100%;
@@ -104,11 +93,13 @@ body {
 .main{
   width: 85%;
   height: 1000px;
+  background-color: #2d2d2d
 }
 
 .about-me {
   color: white;
-  background-color: #2d2d2d;
+  background-color: #2d2d;
+  
 }
 
 .sidebar {
@@ -122,6 +113,10 @@ body {
   background-color: #171726;
 }
 
+.sidebar p{
+  padding-top: 20px;
+}
+
 .sidebarPhoto{
   max-width: 65%;
   position: relative;
@@ -129,6 +124,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+p {
+  margin: 0;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
