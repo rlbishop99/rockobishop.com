@@ -156,6 +156,13 @@ html, body {
   margin-right: auto;
 }
 
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .socialsLink {
   height: 30px;
   width: auto;
