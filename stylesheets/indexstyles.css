@@ -157,8 +157,9 @@ html, body {
 }
 
 .socialsLink {
-  height: 5%;
+  height: 30px;
   width: auto;
+  margin-top: 20px
 }
 
 h2, p{
