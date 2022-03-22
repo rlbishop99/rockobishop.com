@@ -92,6 +92,8 @@ body {
 
 .main{
   width: 85%;
+  position: absolute;
+  right: 0;
   height: 1000px;
   background-color: #2d2d2d
 }
@@ -123,7 +125,7 @@ body {
   text-align: center;
   color: #c8c8c8;
   position: -webkit-sticky;
-  position: fixed;
+  position: sticky;
   top: 0;
   background-color: #171726;
 }
