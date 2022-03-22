@@ -2,6 +2,9 @@
   box-sizing: border-box;
   scrollbar-width: thin;
   scrollbar-color:  grey #821582;
+}
+
+html{
   height: 100%;
 }
 
