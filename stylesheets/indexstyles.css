@@ -103,7 +103,7 @@ html, body {
 }
 
 .main{
-  width: calc(100%-300px);
+  width: 85%;
   position: relative;
   right: 0;
   height: 100%;
@@ -133,7 +133,7 @@ html, body {
 }
 
 .sidebar {
-  width: 300px;
+  width: 15%;
   height: 100vh;
   text-align: center;
   color: #c8c8c8;
