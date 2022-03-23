@@ -74,6 +74,57 @@ html, body {
   width: 100%;
 }
 
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  text-align: center;
+  color: #c8c8c8;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #171726;
+}
+
+.sidebar p{
+  padding-top: 20px;
+}
+
+.sidebarPhoto{
+  max-width: 65%;
+  position: relative;
+  top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.socialsLink {
+  height: 30px;
+  width: auto;
+  margin-top: 20px
+}
+
+.navButtonContainer {
+}
+
+.navButtons {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-left: 60px;
+}
+
+h1, h2, p{
+  margin: 0;
+}
+
 /* Footer */
 .footer {
   width: 100%;
@@ -135,56 +186,10 @@ html, body {
   padding-left: 50px;
 }
 
-.sidebar {
-  width: 15%;
+.projects {
   height: 100vh;
-  text-align: center;
-  color: #c8c8c8;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #171726;
 }
 
-.sidebar p{
-  padding-top: 20px;
-}
-
-.sidebarPhoto{
-  max-width: 65%;
-  position: relative;
-  top: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.links{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.socialsLink {
-  height: 30px;
-  width: auto;
-  margin-top: 20px
-}
-
-.navButtonContainer {
-}
-
-.navButtons {
-  display: flex;
-  flex-direction: column;
-  float: left;
-  margin-left: 60px;
-}
-
-h1, h2, p{
-  margin: 0;
-}
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
