@@ -112,11 +112,13 @@ html, body {
 }
 
 .navButtonContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 .navButtons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   float: left;
   margin-left: 60px;
   cursor: pointer;
