@@ -6,7 +6,7 @@ function typingEffect() {
 	let word = words[i].split("");
 	var loopTyping = function() {
 		if (word.length > 0) {
-			document.getElementById('hats').innerHTML += word.shift();
+			document.getElementById('roles').innerHTML += word.shift();
 		} else {
             timer = setTimeout(deletingEffect, 1200);
 			deletingEffect();
@@ -22,7 +22,7 @@ function deletingEffect() {
 	var loopDeleting = function() {
 		if (word.length > 0) {
 			word.pop();
-			document.getElementById('word').innerHTML = word.join("");
+			document.getElementById('hats').innerHTML = word.join("");
 		} else {
 			if (words.length > (i + 1)) {
 				i++;
