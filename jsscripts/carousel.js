@@ -1,18 +1,40 @@
-const texts = ['Game Developer.', 'Web Developer.', 'Software Engineer.', 'Computer Scientist.'];
-const speed = 200;
-const pause = 1200; // <--- the longer delay between text direction changes
+const words = ["Game Developer.", "Web Developer.", "Software Engineer.", "Computer Scientist."];
+let i = 0;
+let timer;
 
-function typeWriter(i=0, index=1, direction=1) {
-  let displayed = texts[i].slice(0, index);
-  document.querySelector("#hats").textContent = displayed;
+function typingEffect() {
+	let word = words[i].split("");
+	var loopTyping = function() {
+		if (word.length > 0) {
+			document.getElementById('hats').innerHTML += word.shift();
+		} else {
+            timer = setTimeout(deletingEffect, 1200);
+			deletingEffect();
+			return false;
+		};
+		timer = setTimeout(loopTyping, 100);
+	};
+	loopTyping();
+};
 
-  if (displayed.length >= texts[i].length) { // start removing after pause
-    setTimeout(() => typeWriter(i, index-1, -1), pause);
-  } else if (displayed.length === 0) { // go to next text after pause
-    setTimeout(() => typeWriter((i+1) % texts.length), pause);
-  } else { // continue in the current direction
-    setTimeout(() => typeWriter(i, index+direction, direction), speed);
-  }
-}
+function deletingEffect() {
+	let word = words[i].split("");
+	var loopDeleting = function() {
+		if (word.length > 0) {
+			word.pop();
+			document.getElementById('word').innerHTML = word.join("");
+		} else {
+			if (words.length > (i + 1)) {
+				i++;
+			} else {
+				i = 0;
+			};
+			typingEffect();
+			return false;
+		};
+		timer = setTimeout(loopDeleting, 50);
+	};
+	loopDeleting();
+};
 
-typeWriter();
+typingEffect();
