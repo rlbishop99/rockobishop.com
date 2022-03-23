@@ -164,7 +164,7 @@ h1, h2, p{
 }
 
 .top-section {
-  height: 1100px;
+  height: 100vh;
   overflow-y:hidden;
   width: 100%;
   text-align: center;
@@ -179,8 +179,8 @@ h1, h2, p{
 .introduction{
   margin: 0;
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
   z-index: 1;
 }
 
@@ -189,7 +189,7 @@ h1, h2, p{
   padding: 0.1em;
   margin: 0;
   position: absolute;
-  top: 43%;
+  top: 40%;
   left: 50%;
   z-index: 1;
 }
