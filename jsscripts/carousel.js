@@ -22,7 +22,7 @@ function deletingEffect() {
 	var loopDeleting = function() {
 		if (word.length > 0) {
 			word.pop();
-			document.getElementById('hats').innerHTML = word.join("");
+			document.getElementById('roles').innerHTML = word.join("");
 		} else {
 			if (words.length > (i + 1)) {
 				i++;
