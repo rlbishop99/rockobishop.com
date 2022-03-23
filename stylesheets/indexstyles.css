@@ -111,12 +111,14 @@ html, body {
 }
 
 .top-section {
+  height: 1100px;
+  overflow-y:hidden;
   width: 100%;
 }
 
 .top-section-photo {
-  background-size: 100% 100%;
-  backdrop-filter: blur;
+  width: 100%;
+  filter: blur(20px);
 }
 
 .about-me {
