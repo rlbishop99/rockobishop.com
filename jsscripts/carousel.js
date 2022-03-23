@@ -1,4 +1,3 @@
-const words = ["Game Developer.", "Web Developer.", "Software Engineer.", "Computer Scientist."];
 let i = 0;
 let timer;
 
@@ -6,13 +5,12 @@ function typingEffect() {
 	let word = words[i].split("");
 	var loopTyping = function() {
 		if (word.length > 0) {
-			document.getElementById('roles').innerHTML += word.shift();
+			document.getElementById('word').innerHTML += word.shift();
 		} else {
-            // timer = setTimeout(deletingEffect, 1200);
 			deletingEffect();
 			return false;
 		};
-		timer = setTimeout(loopTyping, 100);
+		timer = setTimeout(loopTyping, 500);
 	};
 	loopTyping();
 };
@@ -22,7 +20,7 @@ function deletingEffect() {
 	var loopDeleting = function() {
 		if (word.length > 0) {
 			word.pop();
-			document.getElementById('roles').innerHTML = word.join("");
+			document.getElementById('word').innerHTML = word.join("");
 		} else {
 			if (words.length > (i + 1)) {
 				i++;
@@ -32,7 +30,7 @@ function deletingEffect() {
 			typingEffect();
 			return false;
 		};
-		timer = setTimeout(loopDeleting, 50);
+		timer = setTimeout(loopDeleting, 200);
 	};
 	loopDeleting();
 };
