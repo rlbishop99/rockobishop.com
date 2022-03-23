@@ -8,7 +8,7 @@ function typingEffect() {
 		if (word.length > 0) {
 			document.getElementById('roles').innerHTML += word.shift();
 		} else {
-            timer = setTimeout(deletingEffect, 1200);
+            // timer = setTimeout(deletingEffect, 1200);
 			deletingEffect();
 			return false;
 		};
