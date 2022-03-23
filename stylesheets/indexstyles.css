@@ -116,6 +116,7 @@ html, body {
 
 .navButtons {
   display: flex;
+  float: left;
   flex-direction: column;
   flex: 1;
   margin-left: 60px;
