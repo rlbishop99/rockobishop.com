@@ -168,15 +168,18 @@ h1, h2, p{
   overflow-y:hidden;
   width: 100%;
   text-align: center;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
 }
 
 .top-section-photo {
   width: 100%;
   filter: blur(20px);
+}
+
+.introduction{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .typing-indicator {
