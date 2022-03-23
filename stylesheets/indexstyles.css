@@ -108,13 +108,14 @@ html, body {
 .socialsLink {
   height: 30px;
   width: auto;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .navButtons {
   text-align: left;
   display: grid;
-  padding-left: 5px;
+  padding-left: 15%;
+  cursor: pointer;
 }
 
 h1, h2, p{
