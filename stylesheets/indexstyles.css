@@ -167,6 +167,7 @@ h1, h2, p{
   height: 1100px;
   overflow-y:hidden;
   width: 100%;
+  text-align: center;
 }
 
 .top-section-photo {
