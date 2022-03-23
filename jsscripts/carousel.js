@@ -1,3 +1,4 @@
+const words = ["Game Developer.", "Web Developer.", "Software Engineer.", "Computer Scientist."];
 let i = 0;
 let timer;
 
