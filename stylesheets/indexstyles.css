@@ -172,7 +172,12 @@ html, body {
 }
 
 .navButtonContainer {
+}
+
+.navButtons {
   display: flex;
+  flex-direction: column;
+  float: left;
   margin-left: 60px;
 }
 
