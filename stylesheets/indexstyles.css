@@ -175,7 +175,6 @@ h1, h2, p{
   height: 100vh;
   overflow-y:hidden;
   width: 100%;
-  text-align: center;
   position: relative;
 }
 
