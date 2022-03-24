@@ -1,6 +1,6 @@
 var speed = 50;
 var speed2 = 100;
-var str = document.getElementById('roles');
+var str = document.getElementById("roles");
 var i = 0;
 var isRemoving = false;
 
