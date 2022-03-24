@@ -29,7 +29,7 @@ function action() {
   if (str.innerText.length === message.length) {
     isRemoving = true;
   }
-  setTimeout( action, isRemoving ? 1200 : 100 );
+  setTimeout( action, isRemoving ? 1600 : 100 );
 }
 
 setTimeout( action, 200 ) ;
