@@ -121,6 +121,7 @@ html, body {
 .navButtons a{
   display: flex;
   align-items: center;
+  padding: 20px, 0px;
 }
 
 .navButtons img{
