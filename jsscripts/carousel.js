@@ -1,5 +1,3 @@
-var speed = 50;
-var speed2 = 100;
 var str = document.getElementById("roles");
 var i = 0;
 var isRemoving = false;
@@ -15,7 +13,7 @@ function action() {
   if (isRemoving) {
     if (str.innerText.length > 0) {
       str.innerText = str.innerText.substr(0, str.innerHTML.length - 1);
-      setTimeout( action, speed2 );
+      setTimeout( action, 200 );
       return;
     }
     isRemoving = false;
@@ -23,7 +21,7 @@ function action() {
     if (i >= messages.length) {
       i = 0;
     }
-    setTimeout( action, speed );
+    setTimeout( action, 1200 );
     return;
   }
   var message = messages[i];
@@ -31,7 +29,7 @@ function action() {
   if (str.innerText.length === message.length) {
     isRemoving = true;
   }
-  setTimeout( action, isRemoving ? speed2 : speed );
+  setTimeout( action, isRemoving ? 1200 : 200 );
 }
 
-setTimeout( action, speed ) ;
+setTimeout( action, 200 ) ;
