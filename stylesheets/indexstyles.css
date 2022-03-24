@@ -196,9 +196,6 @@ h1, h2, p{
   color: #00b8ff;
   padding: 0.1em;
   margin: 0;
-  position: absolute;
-  top: 40%;
-  left: 50%;
   z-index: 1;
 }
 
