@@ -194,6 +194,7 @@ h1, h2, p{
 
 span{
   font-size: 32px;
+  font-weight: bold;
 }
 
 .typing-indicator {
