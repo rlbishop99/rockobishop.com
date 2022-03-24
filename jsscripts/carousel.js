@@ -21,7 +21,7 @@ function action() {
     if (i >= messages.length) {
       i = 0;
     }
-    setTimeout( action, 1200 );
+    setTimeout( action, 100 );
     return;
   }
   var message = messages[i];
