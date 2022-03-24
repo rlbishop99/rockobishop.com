@@ -13,7 +13,7 @@ function action() {
   if (isRemoving) {
     if (str.innerText.length > 0) {
       str.innerText = str.innerText.substr(0, str.innerHTML.length - 1);
-      setTimeout( action, 200 );
+      setTimeout( action, 100 );
       return;
     }
     isRemoving = false;
@@ -29,7 +29,7 @@ function action() {
   if (str.innerText.length === message.length) {
     isRemoving = true;
   }
-  setTimeout( action, isRemoving ? 1200 : 200 );
+  setTimeout( action, isRemoving ? 1200 : 100 );
 }
 
 setTimeout( action, 200 ) ;
