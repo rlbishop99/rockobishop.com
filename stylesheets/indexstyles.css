@@ -189,6 +189,7 @@ h1, h2, p{
   top: 40%;
   left: 40%;
   z-index: 1;
+  color: #00b8ff;
 }
 
 .typing-indicator {
