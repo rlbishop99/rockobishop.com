@@ -192,6 +192,10 @@ h1, h2, p{
   color: #00b8ff;
 }
 
+span{
+  font-size: 32px;
+}
+
 .typing-indicator {
   color: #00b8ff;
   padding: 0.1em;
