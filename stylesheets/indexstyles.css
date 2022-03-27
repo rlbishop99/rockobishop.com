@@ -176,7 +176,6 @@ h1, h2, p{
   overflow-y:hidden;
   width: 100%;
   position: relative;
-  font-size: 32px;
 }
 
 .top-section-photo {
@@ -191,6 +190,7 @@ h1, h2, p{
   left: 30%;
   z-index: 1;
   color: white;
+  font-size: 32px;
   text-shadow: 3px 3px #00b8ff;
 }
 
@@ -200,7 +200,7 @@ span{
 }
 
 .typing-indicator {
-  color: white;
+  color: #00b8ff;
   padding-left: 5px;
   margin: 0;
   z-index: 1;
