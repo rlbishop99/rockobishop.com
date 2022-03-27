@@ -3,10 +3,10 @@ var i = 0;
 var isRemoving = false;
 
 var messages = [
-    "Web Developer.",
-    "Game Developer.",
-    "Software Engineer.",
-    "Computer Scientist."
+    "Web Developer",
+    "Game Developer",
+    "Software Engineer",
+    "Computer Scientist"
 ]
 
 function action() {
