@@ -220,7 +220,12 @@ span{
   padding-left: 50px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding-bottom: 5px;
+}
+
+.aboutMeDesc {
+  margin-left: 20px;
 }
 
 .skills {
