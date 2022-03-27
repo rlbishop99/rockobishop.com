@@ -176,6 +176,9 @@ h1, h2, p{
   overflow-y:hidden;
   width: 100%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .top-section-photo {
@@ -186,8 +189,7 @@ h1, h2, p{
 .introduction{
   margin: 0;
   position: absolute;
-  top: 40%;
-  left: 30%;
+  float: left;
   z-index: 1;
   color: white;
   font-size: 32px;
@@ -200,7 +202,6 @@ span{
 }
 
 .typing-indicator {
-  color: #00b8ff;
   padding-left: 5px;
   margin: 0;
   z-index: 1;
