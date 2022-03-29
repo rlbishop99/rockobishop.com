@@ -252,7 +252,10 @@ span{
 /* Responsive layout - when the screen is less than 700px wide, begin adjustments for mobile viewing*/
 @media screen and (max-width: 1200px) {
   .sidebar{
-    display: none;
+    position: absolute;
+    transform: translateX(-300px);
+    transition: 0.5s;
+    z-index: 2;
   }
   
   .main{
