@@ -248,8 +248,9 @@ span{
   padding-left: 50px;
 }
 
-.sidebar:hover{
-  left: -300px;
+.sidebar:hover #slide{
+  display: none;
+  transition: 0.5s;
 }
 
 
