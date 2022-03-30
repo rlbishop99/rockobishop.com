@@ -372,6 +372,5 @@ span{
   .projects{
       grid-template-columns: repeat(1,1fr);
       grid-gap:12px;
-      padding: 0 8px;
   }
 }
