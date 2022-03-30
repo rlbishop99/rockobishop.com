@@ -9,6 +9,8 @@
 
 <body>
 
+  <button class="sideBarExpand" onclick=expand()>Expand Sidebar</button>
+
   <div class="wrapper">
     <div class="sidebar">
       <img src="images/testphp.png" class="sidebarPhoto"/>
@@ -186,4 +188,8 @@
 </body>
 
 <script src="/jsscripts/carousel.js"></script>
+
+<script>
+  $("sideBar").toggleClass('transform-active');
+</script>
 </html>

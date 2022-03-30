@@ -315,6 +315,10 @@ span{
   color: #333 !important;
 }
 
+.sideBarExpand {
+  display: none;
+}
+
 
 /* Responsive layout - when the screen is less than 700px wide, begin adjustments for mobile viewing*/
 @media screen and (max-width: 1200px) {
@@ -323,6 +327,10 @@ span{
     transform: translateX(-300px);
     transition: 0.5s;
     z-index: 2;
+  }
+
+  .sideBar .transform-active {
+    transform: translateX(0px);
   }
   
   .main{
@@ -377,5 +385,13 @@ span{
   .projects{
       grid-template-columns: repeat(1,1fr);
       grid-gap:12px;
+  }
+
+  .sideBarExpand {
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    right: 5%;
+    top: 5%;
   }
 }
