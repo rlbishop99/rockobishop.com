@@ -242,10 +242,17 @@ span{
   margin-right: 10%;
 }
 
+.skillsHeader{
+  background-color: #343438;
+  padding-left: 5%;
+  padding-top: 25px;
+}
+
 .skills {
   color: white;
   background-color: #343438;
   display: flex;
+  padding-bottom: 30px;
 }
 
 .skillsLeft{
@@ -254,7 +261,6 @@ span{
 
 .skillsRight {
   margin: 0% 5%;
-  padding-top: 55px;
 }
 
 .projects {
