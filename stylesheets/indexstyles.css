@@ -242,6 +242,12 @@ span{
   background-color: #343438;
   padding-left: 10%;
   padding-right: 10%;
+  display: flex;
+}
+
+.skillsRight {
+  padding-left: 7.5%;
+  padding-top: 55px;
 }
 
 .projects {
@@ -291,10 +297,16 @@ span{
   .aboutMePhoto {
     width: 50vw;
     min-width: 250px;
+    margin: 5%;
   }
   
   .skills{
     padding-left: 5%;
     padding-right: 5%;
+    flex-direction: column;
+  }
+  
+  .skillsRight{
+    padding: 0px;
   }
 }
