@@ -9,77 +9,181 @@
 
 <body>
 
-<div class="navbar">
-  <a href="">Rocko Bishop | Showcase</a>
-  <a href="" class="right">More</a>
-  <a href="/projects.html" class="right">Projects</a>
-</div>
-
-<div class="header">
-  <h1>Rocko Bishop | Showcase</h1>
-  <p>Your next employee of the month.</p>
-</div>
-
-<div class="row">
-  <div class="side">
-    <h2>About Me</h2>
-    <img src="images/testphp.png" class="embeddedPhoto"/>
-    <p>I'm a Senior at the University of North Texas, studying to graduate with a degree in Computer Science. I enjoy development, but I'm not sure what I want to focus on yet. 
-    I enjoy video game development, and am currently learning HTML, PHP, and CSS. You can click
-    <a target="_blank" href="resume.pdf" download="Rocko_Bishop_Resume_2022.pdf" style="color: #c4f284"><b>here</b></a> 
-    to view my Resume.</p>
-    <h3>Career Interests</h3>
-    <p>I'm currently interested in video game design and software development. I hope to work in a team of knowledgeable people to make games or
-       programs that have an impact.</p>
-    <h2>I'm eager to get started!</h2>
+  <div class="wrapper">
+    <div class="sidebar">
+      <img src="images/testphp.png" class="sidebarPhoto"/>
+      <p>Rocko Bishop</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/rocko-bishop//" target="_blank">
+          <img src="/images//socials/linkedin.png" class="socialsLink"/>
+        </a>
+        <a href="https://github.com/rlbishop99/" target="_blank">
+          <img src="/images//socials/github.png" class="socialsLink"/>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1ufvISBr00VIuomEFVmtcHZJq5CQ7BMAU?usp=sharing" target="_blank">
+          <img src="/images//socials/gdrive.png" class="socialsLink"/>
+        </a>
+      </div>
+      <br>
+      <br>
+      <div class="navButtonContainer">
+        <div class="navButtons">
+          <a onclick="document.getElementById('top-section').scrollIntoView(true);">
+            <img src="/images//socials/home.png" class="navLinks"/>
+            Home
+          </a>
+          <a onclick="document.getElementById('about-me').scrollIntoView(true);">
+            <img src="/images//socials/aboutme.png" class="navLinks"/>
+            About
+          </a>
+          <a onclick="document.getElementById('skillsHeader').scrollIntoView(true);">
+            <img src="/images//socials/skills.png" class="navLinks"/>
+            Skills
+          </a>
+          <a onclick="document.getElementById('projects').scrollIntoView(true);;">
+            <img src="/images//socials/projects.png" class="navLinks"/>
+            Projects
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <a>© 2022 rockobishop.com</a>
+        <a href="/index.html" class="homelink">Go Home</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="top-section" id="top-section">
+        <div class="introduction">
+          <h1>My name is Rocko Bishop</h1>
+          <div style="display:flex">
+            <h1 style="padding-right: 5px;">I am a: </h1>
+            <span id="roles"></span>
+            <h1 class="typing-indicator blink">|</h1>
+          </div>
+        </div>        
+        <img src="images/cyberpunk colors.jpg" class="top-section-photo"/>
+      </div>
+      <div class="about-me" id="about-me">
+        <div class="aboutMeHeader"><h1 style="color: #00b8ff; padding-top: 20px">About Me:</h1>
+          <img src="images/testphp.png" class="aboutMePhoto"/>
+        </div>
+        <div class="aboutMeDesc">
+          <p>I'm a Senior at the University of North Texas, studying to graduate with a degree in Computer Science. 
+            Software Engineering, Web Development, and Game Development are my biggest passions. You can click
+          <a target="_blank" href="resume.pdf" download="Rocko_Bishop_Resume_2022.pdf" style="color: #00ff9f"><b>here</b></a> 
+          to view my Resume.</p>
+          <h3>Career Interests</h3>
+          <p>My desire is to join a team of passionate Software Engineers or Game Developers looking to create a product/service
+            with a massive wide-reaching impact on people. I want to know that my contributions help people improve their lives, 
+            whether that means by giving them a break from the difficulties of everyday life, or giving them something to laugh about.
+          </p>
+             <br>
+          <h2>I cannot wait to begin.</h2>
+          <br>
+        </div>     
+      </div>
+      <div class="skillsHeader" id="skillsHeader">
+          <h1 style="color: #00b8ff">Skills and Tools</h1>
+      </div>
+      <div class="skills" id="skills">        
+        <br>
+        <div class="skillsLeft" id="skillsLeft">
+          <h4>General Knowledge:</h4>
+          <ul>
+            <li>Unity</li>
+            <li>Aesprite</li>
+            <li>Adobe Premiere Pro</li>
+            <li>Computer Hardware Repair/Building</li>
+            <li>Terminal/Command Prompt</li>            
+          </ul>
+          <p>I've been researching and building computers for over 8 years. I use my current build to practice my game development
+            skills using the Unity engine, and Aesprite to make my pixel art assets. I used to make small-scale low budget 
+            short 'films' and chose to edit them with Adobe Premiere Pro. I'm very comfortable navigating and executing commands within
+            the Terminal of various OSs, including Windows, Mac, and Linux.
+          </p>
+          <h4>Software Development and Languages:</h4>
+          <ul>
+            <li>Python</li>
+            <li>C#</li>
+            <li>C++</li>            
+            <li>Git</li>
+            <li>SSH</li>
+          </ul>
+          <p>The flexibility of Python and the ease of use the Unity Game Engine offers have led me to learn as much as I can about
+            Python and C# as programming languages. I also have a fair understanding of the syntax and logic of C++,
+            thanks to it being the language of focus throughout my college curriculum. I do development from lots of different places,
+            using Git to help with version control and SSH to remote in to my home server to manage my content from anywhere I go.
+          </p>
+        </div> 
+        <div class="skillsRight" id="skillsRight">
+          <h4>Web Development:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Some PHP</li>
+          </ul>
+          <p>This website has been the driving project for me to learn how to use various Web Development technologies.
+            To develop a firm understanding of the basics, I wanted to build the best website I could using raw HTML and CSS.
+            This website is currently about 99% raw HTML/CSS, containing only one JavaScript function. Other websites I'm
+            developing will use more advances technologies as I learn more about them.
+          </p>
+          <h4>Frameworks:</h4>
+          <ul>
+            <li>React.js</li>
+            <li>SQLite</li>
+            <li>MySQL</li>
+          </ul>
+          <p>My upper-level courses gave a lot of freedom when it came to picking development projects and what development
+            stack(s) to use. In my Capstone project and other various school-based projects, I've been learning how to use 
+            React.js and SQLite for database management. I'm also studying MySQL in preparation for building a project 
+            with a fully-functioning login system that stores user data.
+          </p>         
+        </div>
+      </div>
+      <div class="projectsHeader">
+          <h1 style="color: #00b8ff; padding-top: 20px">Personal Projects</h1>
+      </div>      
+      <div class="projects" id="projects">        
+        <a href="/Projects/heron.html" target="_blank">
+          <div class="projContainer">
+          <div class="link-background" style="background-image: url('/images/code.png');"></div>
+          <div class="link-title">
+            Heron Formula
+          </div>
+        </div>
+        </a>
+        <a href="/Projects/eggscape.html" target="_blank">
+          <div class="projContainer">
+          <div class="link-background" style="background-image: url('/images/egg.png');"></div>
+          <div class="link-title">
+            The Great Eggscape
+          </div>
+        </div>
+        </a>
+        <a>
+          <div class="projContainer">
+          <div class="link-background" style="background-image: url('/images/blackbubbles.png');"></div>
+          <div class="link-title">
+            Bubble Clicker
+            <br>
+            Coming Soon! 
+          </div>
+        </div>
+        </a>
+        <a>
+          <div class="projContainer">
+          <div class="link-background" style="background-image: url('/images/fillerimage.png');"></div>
+          <div class="link-title">
+            Coming Soon!
+          </div>
+        </div>
+        </a>
+      </div>
+      </div>
+    </div>
   </div>
-  <div class="main">
-    <h2>Skills and Tools</h2>
-    <h5>General Knowledge:</h5>
-    <ul>
-      <li>Computer Hardware Repair/Building</li>
-      <li>Unity</li>
-      <li>Aesprite</li>
-      <li>Adobe Premiere Pro</li>
-    </ul>
-    <p>I've been researching and building computers for over 7 years. I use my current build to practice my game development skills using the Unity 
-       engine, and Aesprite to make my pixel art assets. I used to make small-scale low budget short 'films' and edited them with Adobe Premiere Pro.
-       I'm constantly trying to learn new things, and I hope to expand this section with more concrete skills soon!
-    </p>
-    <h5>Software Development:</h5>
-    <ul>
-      <li>C#</li>
-      <li>C++</li>
-      <li>Some Java</li>
-      <li>Some Python</li>
-      <li>Git</li>
-    </ul>
-    <p>I use Unity to do game development, so I believe I'm most proficient with the C# programming language. I've studied C++ the most throughout
-       my college career, so I have a solid understanding of the syntax and logic that comes with the language. I have minor experience with Java
-       and Python, and am working on developing those skills to one day be marketable. I use Git to host my major projects - becoming more
-       familiar with version control has been incredibly helpful as I've undergone my programming education.
-    </p>
-    <h5>Web Development:</h5>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>SSH</li>
-    </ul>
-    <p>I'm quite new to Web Development. This website has been my first real project since I've begun learning. I primarily format my websites using
-       HTML and CSS. I'm trying to learn how to best integrate PHP and JavaScript functionality into my websites, but it is an ongoing process. I host my websites on
-       a Raspberry Pi, so I use SSH and Git to make sure my remote repositories are in sync with the local repositories on the Pi. 
-       Controlling my Pi from anywhere in the world means I can do Web Development when I'm not at my desk, which is amazing.
-    </p>
-    <br>
-  </div>
-</div>
-
-<div class="footer">
-  <a>© rockobishop.com - All rights reserved.</a>
-  <a href="/index.html" class="right">Go Home</a>
-</div>
-
 </body>
+
+<script src="/jsscripts/carousel.js"></script>
 </html>
