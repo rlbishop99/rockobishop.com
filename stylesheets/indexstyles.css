@@ -325,12 +325,12 @@ span{
   .sidebar{
     position: fixed;
     transform: translateX(-300px);
-    transition: 0.5s;
     z-index: 2;
   }
 
-  .sidebar .transform-active {
-    transform: translateX(0px);
+  .sidebar-active {
+    position: fixed;
+    z-index: 2;
   }
   
   .main{
