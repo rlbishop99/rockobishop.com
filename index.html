@@ -9,10 +9,10 @@
 
 <body>
 
-  <button class="sideBarExpand">Expand Sidebar</button>
+  <button class="sideBarExpand" id="sideBarExpand">Expand Sidebar</button>
 
   <div class="wrapper">
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
       <img src="images/testphp.png" class="sidebarPhoto"/>
       <p>Rocko Bishop</p>
       <div class="links">
@@ -192,8 +192,10 @@
 <script src="/jsscripts/carousel.js"></script>
 
 <script>
-  $("sideBarExpand").click(function() {
-    $("sidebar").toggleClass('transform-active')
-  });  
+  document.getElementById("sideBarExpand").onclick = function() {expandSideBar};
+  
+  function expandSideBar() {
+    document.getElementById("sidebar").classList.toggle("transform-active");
+  }
 </script>
 </html>
