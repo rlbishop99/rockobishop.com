@@ -346,6 +346,10 @@ span{
     transition: all 0.5s;
   }
   
+  .sidebar-active p {
+    padding-top: 20px;
+  }
+  
   .main{
     width: 100%;
   }
