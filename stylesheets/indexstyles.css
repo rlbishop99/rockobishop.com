@@ -263,6 +263,10 @@ span{
   margin: 0% 5%;
 }
 
+.projectsHeader {
+  display: flex;
+}
+
 .projects {
   display: grid;
   height: 100vh;
