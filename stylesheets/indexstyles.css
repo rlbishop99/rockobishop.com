@@ -232,6 +232,11 @@ span{
   padding-bottom: 5px;
 }
 
+.aboutMePhoto {
+  width: 20vw;
+  margin: 5% 0px;
+}
+
 .aboutMeDesc {
   margin-left: 10%;
   margin-right: 10%;
