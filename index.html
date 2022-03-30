@@ -9,7 +9,7 @@
 
 <body>
 
-  <button class="sideBarExpand" id="sideBarExpand">Expand Sidebar</button>
+  <button class="sideBarExpand" id="sideBarExpand" onclick=expand()>Expand Sidebar</button>
 
   <div class="wrapper">
     <div class="sidebar" id="sidebar">
@@ -192,9 +192,7 @@
 <script src="/jsscripts/carousel.js"></script>
 
 <script>
-  document.getElementById("sideBarExpand").onclick = function() {expandSideBar};
-  
-  function expandSideBar() {
+  function expand() {
     var element = document.getElementById("sidebar");
     element.classList.toggle('sidebar-active');
     element.classList.toggle('sidebar');
