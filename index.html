@@ -195,7 +195,9 @@
   document.getElementById("sideBarExpand").onclick = function() {expandSideBar};
   
   function expandSideBar() {
-    document.getElementById("sidebar").classList.toggle("transform-active");
+    var element = document.getElementById("sidebar");
+    element.classList.toggle('sidebar-active');
+    element.classList.toggle('sidebar');
   }
 </script>
 </html>
