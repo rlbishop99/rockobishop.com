@@ -267,17 +267,12 @@ span{
   display: flex;
 }
 
-.projects {
-  display: grid;
-  height: 100vh;
-  padding-left: 50px;
-}
-
 .projects{
   display: grid;
   margin-top: 15px;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 15px 15px;
+  padding: 5% 0px;
 }
 
 .projContainer{
