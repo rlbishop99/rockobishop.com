@@ -329,7 +329,7 @@ span{
     z-index: 2;
   }
 
-  .sideBar .transform-active {
+  .transform-active {
     transform: translateX(0px);
   }
   
