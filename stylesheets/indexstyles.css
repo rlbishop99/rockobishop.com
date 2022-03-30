@@ -240,13 +240,15 @@ span{
 .skills {
   color: white;
   background-color: #343438;
-  padding-left: 10%;
-  padding-right: 10%;
   display: flex;
 }
 
+.skillsLeft{
+  margin: 0% 5%;
+}
+
 .skillsRight {
-  padding-left: 7.5%;
+  margin: 0% 5%;
   padding-top: 55px;
 }
 
