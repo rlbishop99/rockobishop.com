@@ -202,6 +202,13 @@
 
 <script>
   var sidebar = document.getElementById("sidebar");
-  sidebar.addEventListener("focusout", sidebar.classList.toggle('sidebar'));
+  sidebar.addEventListener("focusout", shrink());
+
+  function shrink(){
+    var element = document.getElementById("sidebar");
+    element.classList.toggle('sidebar-active');
+    element.classList.toggle('sidebar');
+    console.log("Focusout!");
+  }
 </script>
 </html>
