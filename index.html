@@ -194,6 +194,7 @@
 <script>
 
   var element = document.getElementById("sidebar");
+  var menu = document.getElementById("sideBarExpand");
   
   function expand() {    
     element.classList.toggle('sidebar-active');
@@ -203,8 +204,9 @@
 
   document.addEventListener('click', function(event) {
     var isClickInside = element.contains(event.target);
+    var isClickInside2 = menu.contains(event.target);
 
-    if(!isClickInside && element.classList.contains('sidebar-active')) {
+    if(!isClickInside && !isClickInside2) {
       element.classList.remove('sidebar-active');
       element.classList.add('sidebar');
       console.log("Clicked out of sidebar!");
