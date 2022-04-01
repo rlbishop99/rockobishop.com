@@ -199,16 +199,20 @@
     element.classList.toggle('sidebar-active');
     element.classList.toggle('sidebar');
     console.log("Button clicked!");
-  }
+  };
+</script>
 
-  document.addEventListener('click' function(e) {
-    var isClickInside = element.contains(e.target);
+<script>
+
+  var element = document.getElementById("sidebar");
+
+  document.addEventListener('click' function(event) {
+    var isClickInside = element.contains(event.target);
 
     if(!isClickInside) {
       element.classList.remove('sidebar-active');
       element.classList.add('sidebar');
     }
   });
-
 </script>
 </html>
