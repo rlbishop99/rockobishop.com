@@ -199,8 +199,9 @@
     element.classList.toggle('sidebar-active');
     element.classList.toggle('sidebar');
     console.log("Button clicked!");
+  }
 
-    document.addEventListener('click', function(event) {
+  document.addEventListener('click', function(event) {
     var isClickInside = element.contains(event.target);
 
     if(!isClickInside && element.classList.contains('sidebar-active')) {
@@ -208,8 +209,7 @@
       element.classList.add('sidebar');
       console.log("Clicked out of sidebar!");
     }
-  });
 
-  }
+  });
 </script>
 </html>
