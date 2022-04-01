@@ -412,7 +412,7 @@ span{
     display: flex;
     z-index: 3;
     position: fixed;
-    right: 5%;
-    top: 5%;
+    right: 20px;
+    top: 40px;
   }
 }
