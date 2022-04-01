@@ -201,7 +201,7 @@
     console.log("Button clicked!");
   }
 
-  element.addEventListener('click', function(event) {
+  document.addEventListener('focusout', function(event) {
     var isClickInside = element.contains(event.target);
 
     if(!isClickInside) {
