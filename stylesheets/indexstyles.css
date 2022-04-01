@@ -405,8 +405,7 @@ span{
   }
 
   .sideBarExpand {
-    background-image: url("/images/menuIcon.png");
-    background-size: cover;
+    background-size: fit;
     height: 5%;
     width: auto;
     display: flex;
