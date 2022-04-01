@@ -407,7 +407,7 @@ span{
   .sideBarExpand {
     background-size: fit;
     cursor: pointer;
-    height: 5%;
+    height: 40px;
     width: auto;
     display: flex;
     z-index: 3;
