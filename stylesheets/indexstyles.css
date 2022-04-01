@@ -406,10 +406,11 @@ span{
 
   .sideBarExpand {
     background-size: fit;
+    cursor: pointer;
     height: 5%;
     width: auto;
     display: flex;
-    z-index: 1;
+    z-index: 3;
     position: fixed;
     right: 5%;
     top: 5%;
