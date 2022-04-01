@@ -127,7 +127,7 @@
           </ul>
           <p>This website has been the driving project for me to learn how to use various Web Development technologies.
             To develop a firm understanding of the basics, I wanted to build the best website I could using raw HTML and CSS.
-            This website is currently about 99% raw HTML/CSS, containing only one JavaScript function. Other websites I'm
+            This website is currently about 99% raw HTML/CSS, containing only two JavaScript functions. Other websites I'm
             developing will use more advances technologies as I learn more about them.
           </p>
           <h4>Frameworks:</h4>
@@ -192,7 +192,6 @@
 <script src="/jsscripts/carousel.js"></script>
 
 <script>
-
   var element = document.getElementById("sidebar");
   var menu = document.getElementById("sideBarExpand");
   
@@ -209,7 +208,6 @@
     if(!isClickInside && !isClickInside2 && element.classList.contains('sidebar-active')) {
       element.classList.remove('sidebar-active');
       element.classList.add('sidebar');
-      console.log("Clicked out of sidebar!");
     }
 
   });
