@@ -9,8 +9,10 @@
 
 <body>
 
+  <img src="images/menuIcon.png" class="sideBarExpand" id="sideBarExpand" onclick=expand()>
+
   <div class="wrapper">
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
       <img src="images/testphp.png" class="sidebarPhoto"/>
       <p>Rocko Bishop</p>
       <div class="links">
@@ -125,7 +127,7 @@
           </ul>
           <p>This website has been the driving project for me to learn how to use various Web Development technologies.
             To develop a firm understanding of the basics, I wanted to build the best website I could using raw HTML and CSS.
-            This website is currently about 99% raw HTML/CSS, containing only one JavaScript function. Other websites I'm
+            This website is currently about 99% raw HTML/CSS, containing only two JavaScript functions. Other websites I'm
             developing will use more advances technologies as I learn more about them.
           </p>
           <h4>Frameworks:</h4>
@@ -185,5 +187,28 @@
   </div>
 </body>
 
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
 <script src="/jsscripts/carousel.js"></script>
+
+<script>
+  var element = document.getElementById("sidebar");
+  var menu = document.getElementById("sideBarExpand");
+  
+  function expand() {    
+    element.classList.toggle('sidebar-active');
+    element.classList.toggle('sidebar');
+  }
+
+  document.addEventListener('click', function(event) {
+    var isClickInside = element.contains(event.target);
+    var isClickInside2 = menu.contains(event.target);
+
+    if(!isClickInside && !isClickInside2 && element.classList.contains('sidebar-active')) {
+      element.classList.remove('sidebar-active');
+      element.classList.add('sidebar');
+    }
+
+  });
+</script>
 </html>

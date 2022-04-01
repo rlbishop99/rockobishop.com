@@ -315,14 +315,39 @@ span{
   color: #333 !important;
 }
 
+.sideBarExpand {
+  display: none;
+}
+
 
 /* Responsive layout - when the screen is less than 700px wide, begin adjustments for mobile viewing*/
 @media screen and (max-width: 1200px) {
   .sidebar{
     position: fixed;
     transform: translateX(-300px);
-    transition: 0.5s;
     z-index: 2;
+  }
+
+  .sidebar-active {
+    position: fixed;
+    transform: translateX(0px);
+    z-index: 3;
+
+    width: 300px;
+    height: 100vh;
+    text-align: center;
+    color: #c8c8c8;
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #171726;
+    transition: all 0.5s;
+  }
+  
+  .sidebar-active p {
+    padding-top: 20px;
   }
   
   .main{
@@ -377,5 +402,17 @@ span{
   .projects{
       grid-template-columns: repeat(1,1fr);
       grid-gap:12px;
+  }
+
+  .sideBarExpand {
+    background-size: fit;
+    cursor: pointer;
+    height: 5%;
+    width: auto;
+    display: flex;
+    z-index: 3;
+    position: fixed;
+    right: 5%;
+    top: 5%;
   }
 }
