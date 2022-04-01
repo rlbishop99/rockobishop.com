@@ -201,10 +201,10 @@
     console.log("Button clicked!");
   }
 
-  document.addEventListener('click', function(event) {
+  element.addEventListener('click', function(event) {
     var isClickInside = element.contains(event.target);
 
-    if(!isClickInside && element.classList.contains('sidebar-active')) {
+    if(!isClickInside) {
       element.classList.remove('sidebar-active');
       element.classList.add('sidebar');
       console.log("Clicked out of sidebar!");
