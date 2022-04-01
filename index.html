@@ -201,12 +201,12 @@
     console.log("Button clicked!");
   }
 
+  document.addEventListener('click' function(e) {
+    var isClickInside = element.contains(e.target);
 
-  element.addEventListener('clickout', function(e) {
-    if (e.target.id != 'sidebar') {
+    if(!isClickInside) {
       element.classList.remove('sidebar-active');
       element.classList.add('sidebar');
-      console.log("Clicked outside of sidebar!");
     }
   });
 
