@@ -206,7 +206,7 @@
     var isClickInside = element.contains(event.target);
     var isClickInside2 = menu.contains(event.target);
 
-    if(!isClickInside && !isClickInside2) {
+    if(!isClickInside && !isClickInside2 && element.classList.contains('sidebar-active')) {
       element.classList.remove('sidebar-active');
       element.classList.add('sidebar');
       console.log("Clicked out of sidebar!");
