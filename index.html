@@ -192,23 +192,28 @@
 <script src="/jsscripts/carousel.js"></script>
 
 <script>
-  function expand() {
-    var element = document.getElementById("sidebar");
+
+  var element = document.getElementById("sidebar");
+  
+  function expand() {    
     element.classList.toggle('sidebar-active');
     element.classList.toggle('sidebar');
     console.log("Button clicked!");
   }
-</script>
 
-<script>
-  var sidebar = document.getElementById("sidebar");
-  sidebar.addEventListener("focusout", shrink());
 
-  function shrink(){
-    var element = document.getElementById("sidebar");
+  element.addEventListener('clickout', function(e) {
+    if (e.target.id != 'sidebar') {
+      element.classList.remove('sidebar-active');
+      element.classList.add('sidebar');
+    }
+  });
+  
+  function close() {
     element.classList.toggle('sidebar-active');
     element.classList.toggle('sidebar');
-    console.log("Focusout!");
+    console.log("Button clicked!");
   }
+
 </script>
 </html>
