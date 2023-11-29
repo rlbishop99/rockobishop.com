@@ -5,8 +5,8 @@ var isRemoving = false;
 var messages = [
     "Web Developer",
     "Game Developer",
-    "Software Engineer",
-    "Computer Scientist"
+    "SDET",
+    "Automation Engineer",
 ]
 
 function action() {
