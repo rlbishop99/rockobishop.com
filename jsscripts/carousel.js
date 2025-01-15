@@ -3,10 +3,10 @@ var i = 0;
 var isRemoving = false;
 
 var messages = [
+    "Desktop Engineer",
+    "UI/UX Developer",
     "Web Developer",
     "Game Developer",
-    "SDET",
-    "Automation Engineer",
 ]
 
 function action() {
