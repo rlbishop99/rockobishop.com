@@ -3,9 +3,9 @@ var i = 0;
 var isRemoving = false;
 
 var messages = [
-    "Desktop Engineer",
-    "UI/UX Developer",
-    "Web Developer",
+    "Software Engineer",
+    "Full-Stack Developer",
+    "Front-End Engineer",
     "Game Developer",
 ]
 

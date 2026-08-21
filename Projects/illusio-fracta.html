@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Illusio Fracta | Rocko Bishop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/stylesheets/indexstyles.css">
+</head>
+
+<body>
+
+  <img src="/images/menuIcon.png" class="sideBarExpand" id="sideBarExpand" onclick=expand()>
+
+  <div class="wrapper">
+    <div class="sidebar" id="sidebar">
+      <img src="/images/testphp.png" class="sidebarPhoto"/>
+      <p>Rocko Bishop</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/rocko-bishop//" target="_blank">
+          <img src="/images/socials/linkedin.png" class="socialsLink"/>
+        </a>
+        <a href="https://github.com/rlbishop99/" target="_blank">
+          <img src="/images/socials/github.png" class="socialsLink"/>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1ufvISBr00VIuomEFVmtcHZJq5CQ7BMAU?usp=sharing" target="_blank">
+          <img src="/images/socials/gdrive.png" class="socialsLink"/>
+        </a>
+      </div>
+      <br>
+      <br>
+      <div class="navButtonContainer">
+        <div class="navButtons">
+          <a href="/index.html#top-section">
+            <img src="/images/socials/home.png" class="navLinks"/>
+            Home
+          </a>
+          <a href="/index.html#about-me">
+            <img src="/images/socials/aboutme.png" class="navLinks"/>
+            About
+          </a>
+          <a href="/index.html#skillsHeader">
+            <img src="/images/socials/skills.png" class="navLinks"/>
+            Skills
+          </a>
+          <a href="/index.html#projects">
+            <img src="/images/socials/projects.png" class="navLinks"/>
+            Projects
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <a>© 2022-2026 rockobishop.com</a>
+        <a href="/index.html" class="homelink">Go Home</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="projectHero">
+        <div class="projectHeroBg" style="background-image: url('/images/Magic.png');"></div>
+        <div class="projectHeroOverlay"></div>
+        <h1 class="projectHeroTitle">Illusio Fracta</h1>
+      </div>
+      <a href="/index.html#projects" class="backToProjects">&larr; Back to Projects</a>
+      <div class="projectMain">
+        <div class="projectFrame">
+          <iframe src="https://itch.io/embed-upload/18777849?color=000000" allowfullscreen="" width="1920" height="1080" frameborder="0"><a href="https://plasmalot.itch.io/illusio-fracta">Play Illusio Fracta on itch.io</a></iframe>
+        </div>
+        <a class="projectCTA" href="https://plasmalot.itch.io/illusio-fracta" target="_blank">Play Illusio Fracta on itch.io &#8599;</a>
+        <p class="projectDesc">Illusio Fracta is a puzzle game that I developed over one week for a Game Jam.
+          The goal of the game is to stop the Illusionist from wreaking havoc on the land. The game is a cross between a Text-Based RPG and Spot the Difference,
+          where you can only interact with the world by typing in commands. The game is a bit of a throwback to the old text-based adventure games, but with a modern twist where you can only interact
+          with objects you've most recently seen when your eyes are open, and the scene changes every time you open your eyes.
+        </p>
+        <hr class="projectDescDivider">
+        <p class="projectDesc">
+          I'm very proud of this game, as it was the first time I had ever made a game that was fully text-based.
+          It was also the first time I had ever made a game that was fully playable from start to finish that I felt was actually fun and engaging to play.
+          I learned a lot about parsing user input, how to create puzzles that were challenging yet accessible, and about manipulating game state and tracking that state across sessions.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  var element = document.getElementById("sidebar");
+  var menu = document.getElementById("sideBarExpand");
+
+  function expand() {
+    element.classList.toggle('sidebar-active');
+    element.classList.toggle('sidebar');
+  }
+
+  document.addEventListener('click', function(event) {
+    var isClickInside = element.contains(event.target);
+    var isClickInside2 = menu.contains(event.target);
+
+    if(!isClickInside && !isClickInside2 && element.classList.contains('sidebar-active')) {
+      element.classList.remove('sidebar-active');
+      element.classList.add('sidebar');
+    }
+
+  });
+</script>
+</html>

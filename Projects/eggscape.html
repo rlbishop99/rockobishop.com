@@ -1,18 +1,105 @@
 <!DOCTYPE html>
-<html>
-    <title>The Great Eggscape</title>
-    <body style="background-color:#292929; text-align: center;">
-    <h1 style="padding: 0px 0px 20px 0px; color:#c8c8c8">The Great Eggscape</h1>
-    <iframe src="https://itch.io/embed-upload/2621668?color=f7eaa1" allowfullscreen="" width="1300" height="808" frameborder="0"><a href="https://plasmalot.itch.io/the-great-eggscape">Play The Great Eggscape on itch.io</a></iframe>
-    <h2 style="padding: 20px 0 0 0; color:#c8c8c8; max-width: 1300px; min-width: 100px; margin:0 auto;">This short physics-based game was developed over the course of 36 hours for a Game Jam. We were given a pallete of premade 1-bit art assets
-        and were told to use those assets exclusively to create the most fun/creative game that we could imagine. I decided to make a game about a chicken
-        egg that was trying to "eggscape" the chicken coop out of fear of being eaten. The egg moves with a physics body and moves kinetically through impulses.
-    </h2>
-    <h2 style="padding: 20px 0 0 0; color:#c8c8c8; max-width: 1300px; min-width: 100px; margin:0 auto;">
-        It was the first Game Jam I had ever participated in, and it was the first time I had made a full game that was playable from start to finish.
-        There are absolutely some issues: I naively tied physics to frame rate/refresh rate, so some of the physics make the game unplayable if you aren't playing on a 60hz monitor. (Which, let's be honest, most of us aren't at this point!)
-        I certainly learned a lot while making it, it taught me a lot about debugging, code review, creativity, and good code optimization practices.
-        I wouldn't try to argue that this game is GOOD, but it is playable (on 60hz monitors) and should be bug-free! Have fun!
-    </h2>
-    </body>
+<html lang="en">
+<head>
+<title>The Great Eggscape | Rocko Bishop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/stylesheets/indexstyles.css">
+</head>
+
+<body>
+
+  <img src="/images/menuIcon.png" class="sideBarExpand" id="sideBarExpand" onclick=expand()>
+
+  <div class="wrapper">
+    <div class="sidebar" id="sidebar">
+      <img src="/images/testphp.png" class="sidebarPhoto"/>
+      <p>Rocko Bishop</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/rocko-bishop//" target="_blank">
+          <img src="/images/socials/linkedin.png" class="socialsLink"/>
+        </a>
+        <a href="https://github.com/rlbishop99/" target="_blank">
+          <img src="/images/socials/github.png" class="socialsLink"/>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1ufvISBr00VIuomEFVmtcHZJq5CQ7BMAU?usp=sharing" target="_blank">
+          <img src="/images/socials/gdrive.png" class="socialsLink"/>
+        </a>
+      </div>
+      <br>
+      <br>
+      <div class="navButtonContainer">
+        <div class="navButtons">
+          <a href="/index.html#top-section">
+            <img src="/images/socials/home.png" class="navLinks"/>
+            Home
+          </a>
+          <a href="/index.html#about-me">
+            <img src="/images/socials/aboutme.png" class="navLinks"/>
+            About
+          </a>
+          <a href="/index.html#skillsHeader">
+            <img src="/images/socials/skills.png" class="navLinks"/>
+            Skills
+          </a>
+          <a href="/index.html#projects">
+            <img src="/images/socials/projects.png" class="navLinks"/>
+            Projects
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <a>© 2022-2026 rockobishop.com</a>
+        <a href="/index.html" class="homelink">Go Home</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="projectHero">
+        <div class="projectHeroBg" style="background-image: url('/images/egg.png');"></div>
+        <div class="projectHeroOverlay"></div>
+        <h1 class="projectHeroTitle">The Great Eggscape</h1>
+      </div>
+      <a href="/index.html#projects" class="backToProjects">&larr; Back to Projects</a>
+      <div class="projectMain">
+        <div class="projectFrame">
+          <iframe src="https://itch.io/embed-upload/2621668?color=f7eaa1" allowfullscreen="" width="1920" height="1080" frameborder="0"><a href="https://plasmalot.itch.io/the-great-eggscape">Play The Great Eggscape on itch.io</a></iframe>
+        </div>
+        <a class="projectCTA" href="https://plasmalot.itch.io/the-great-eggscape" target="_blank">Play The Great Eggscape on itch.io &#8599;</a>
+        <p class="projectDesc">This short physics-based game was developed over the course of 36 hours for a Game Jam. We were given a pallete of premade 1-bit art assets
+          and were told to use those assets exclusively to create the most fun/creative game that we could imagine. I decided to make a game about a chicken
+          egg that was trying to "eggscape" the chicken coop out of fear of being eaten. The egg moves with a physics body and moves kinetically through impulses.
+        </p>
+        <hr class="projectDescDivider">
+        <p class="projectDesc">
+          It was the first Game Jam I had ever participated in, and it was the first time I had made a full game that was playable from start to finish.
+          There are absolutely some issues: I naively tied physics to frame rate/refresh rate, so some of the physics make the game unplayable if you aren't playing on a 60hz monitor. (Which, let's be honest, most of us aren't at this point!)
+          I certainly learned a lot while making it, it taught me a lot about debugging, code review, creativity, and good code optimization practices.
+          I wouldn't try to argue that this game is GOOD, but it is playable (on 60hz monitors) and should be bug-free! Have fun!
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  var element = document.getElementById("sidebar");
+  var menu = document.getElementById("sideBarExpand");
+
+  function expand() {
+    element.classList.toggle('sidebar-active');
+    element.classList.toggle('sidebar');
+  }
+
+  document.addEventListener('click', function(event) {
+    var isClickInside = element.contains(event.target);
+    var isClickInside2 = menu.contains(event.target);
+
+    if(!isClickInside && !isClickInside2 && element.classList.contains('sidebar-active')) {
+      element.classList.remove('sidebar-active');
+      element.classList.add('sidebar');
+    }
+
+  });
+</script>
 </html>

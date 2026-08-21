@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Minute Mayhem | Rocko Bishop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/stylesheets/indexstyles.css">
+</head>
+
+<body>
+
+  <img src="/images/menuIcon.png" class="sideBarExpand" id="sideBarExpand" onclick=expand()>
+
+  <div class="wrapper">
+    <div class="sidebar" id="sidebar">
+      <img src="/images/testphp.png" class="sidebarPhoto"/>
+      <p>Rocko Bishop</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/rocko-bishop//" target="_blank">
+          <img src="/images/socials/linkedin.png" class="socialsLink"/>
+        </a>
+        <a href="https://github.com/rlbishop99/" target="_blank">
+          <img src="/images/socials/github.png" class="socialsLink"/>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1ufvISBr00VIuomEFVmtcHZJq5CQ7BMAU?usp=sharing" target="_blank">
+          <img src="/images/socials/gdrive.png" class="socialsLink"/>
+        </a>
+      </div>
+      <br>
+      <br>
+      <div class="navButtonContainer">
+        <div class="navButtons">
+          <a href="/index.html#top-section">
+            <img src="/images/socials/home.png" class="navLinks"/>
+            Home
+          </a>
+          <a href="/index.html#about-me">
+            <img src="/images/socials/aboutme.png" class="navLinks"/>
+            About
+          </a>
+          <a href="/index.html#skillsHeader">
+            <img src="/images/socials/skills.png" class="navLinks"/>
+            Skills
+          </a>
+          <a href="/index.html#projects">
+            <img src="/images/socials/projects.png" class="navLinks"/>
+            Projects
+          </a>
+        </div>
+      </div>
+      <div class="footer">
+        <a>© 2022-2026 rockobishop.com</a>
+        <a href="/index.html" class="homelink">Go Home</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="projectHero">
+        <div class="projectHeroBg" style="background-image: url('/images/Gear.png');"></div>
+        <div class="projectHeroOverlay"></div>
+        <h1 class="projectHeroTitle">Minute Mayhem</h1>
+      </div>
+      <a href="/index.html#projects" class="backToProjects">&larr; Back to Projects</a>
+      <div class="projectMain">
+        <div class="projectFrame">
+          <iframe src="https://itch.io/embed-upload/8435319?color=c6f4b3" allowfullscreen="" width="1920" height="1080" frameborder="0"><a href="https://plasmalot.itch.io/minute-mayhem">Play Minute Mayhem on itch.io</a></iframe>
+        </div>
+        <a class="projectCTA" href="https://plasmalot.itch.io/minute-mayhem" target="_blank">Play Minute Mayhem on itch.io &#8599;</a>
+        <p class="projectDesc">Minute Mayhem is a spiritual successor to Mushroom Mix-up, the classic Party game
+          from the original Mario Party. You are stock on a set of interlocking Gear platforms and over time the platforms will start to drop into the water, leaving you with less room to move around.
+          Enemies will spawn and try to push you off, so it is an endless survival game! You can crank a lever to raise up all of the dropped platforms, but over time the frequency with which enemies spawn
+          and platforms lower will make it harder and harder to survive.
+        </p>
+        <hr class="projectDescDivider">
+        <p class="projectDesc">
+          This game was fun to make and ended up being pretty accurate to the GDD my Team of 3 Devs wrote before we began programming!
+          I learned a lot about properly designing and scoping a project this go around, and I think it shows in the final product.
+          The game is simple and goofy, but still a lot of fun!
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  var element = document.getElementById("sidebar");
+  var menu = document.getElementById("sideBarExpand");
+
+  function expand() {
+    element.classList.toggle('sidebar-active');
+    element.classList.toggle('sidebar');
+  }
+
+  document.addEventListener('click', function(event) {
+    var isClickInside = element.contains(event.target);
+    var isClickInside2 = menu.contains(event.target);
+
+    if(!isClickInside && !isClickInside2 && element.classList.contains('sidebar-active')) {
+      element.classList.remove('sidebar-active');
+      element.classList.add('sidebar');
+    }
+
+  });
+</script>
+</html>
